@@ -11,7 +11,15 @@ export const metadata: Metadata = {
 };
 
 const ImagesPage = () =&gt; {
-  return (<DefaultLayout><images></images></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<images></images>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default ImagesPage;

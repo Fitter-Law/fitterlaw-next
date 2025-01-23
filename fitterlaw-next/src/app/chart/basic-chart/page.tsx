@@ -12,7 +12,15 @@ export const metadata: Metadata = {
 };
 
 const BasicChartPage: React.FC = () =&gt; {
-  return (<DefaultLayout><basicchart></basicchart></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<basicchart></basicchart>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default BasicChartPage;

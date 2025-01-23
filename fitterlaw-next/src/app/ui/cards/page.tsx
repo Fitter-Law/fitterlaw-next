@@ -87,7 +87,15 @@ const cardsItemThreeData = [
 ];
 
 const Cards: React.FC = () =&gt; {
-  return (<DefaultLayout><breadcrumb pagename="Cards"><div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">{cardsItemOneData.map((card, key) =&gt; (<cardsitemone key="{key}" imagesrc="{card.imageSrc}" name="{card.name}" role="{card.role}" cardimagesrc="{card.cardImageSrc}" cardtitle="{card.cardTitle}" cardcontent="{card.cardContent}">))}</cardsitemone></div><h2 className="mb-7.5 mt-10 text-title-md2 font-semibold text-black dark:text-white">Cards</h2><div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">{cardsItemTwoData.map((card, key) =&gt; (<cardsitemtwo key="{key}" cardimagesrc="{card.cardImageSrc}" cardtitle="{card.cardTitle}" cardcontent="{card.cardContent}">))}</cardsitemtwo></div><h2 className="mb-7.5 mt-10 text-title-md2 font-semibold text-black dark:text-white">Cards</h2><div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">{cardsItemThreeData.map((card, key) =&gt; (<cardsitemthree key="{key}" cardtitle="{card.cardTitle}" cardcontent="{card.cardContent}">))}</cardsitemthree></div></breadcrumb></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<breadcrumb pagename="Cards"><div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">{cardsItemOneData.map((card, key) =&gt; (<cardsitemone key="{key}" imagesrc="{card.imageSrc}" name="{card.name}" role="{card.role}" cardimagesrc="{card.cardImageSrc}" cardtitle="{card.cardTitle}" cardcontent="{card.cardContent}">))}</cardsitemone></div><h2 className="mb-7.5 mt-10 text-title-md2 font-semibold text-black dark:text-white">Cards</h2><div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">{cardsItemTwoData.map((card, key) =&gt; (<cardsitemtwo key="{key}" cardimagesrc="{card.cardImageSrc}" cardtitle="{card.cardTitle}" cardcontent="{card.cardContent}">))}</cardsitemtwo></div><h2 className="mb-7.5 mt-10 text-title-md2 font-semibold text-black dark:text-white">Cards</h2><div className="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">{cardsItemThreeData.map((card, key) =&gt; (<cardsitemthree key="{key}" cardtitle="{card.cardTitle}" cardcontent="{card.cardContent}">))}</cardsitemthree></div></breadcrumb>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default Cards;

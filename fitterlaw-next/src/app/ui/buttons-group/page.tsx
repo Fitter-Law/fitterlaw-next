@@ -13,7 +13,15 @@ export const metadata: Metadata = {
 };
 
 const ButtonsGroup: React.FC = () =&gt; {
-  return (<DefaultLayout><breadcrumb pagename="Buttons Group"><div className="flex flex-col gap-7.5"><buttonsgroupone><buttonsgrouptwo></buttonsgrouptwo></buttonsgroupone></div></breadcrumb></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<breadcrumb pagename="Buttons Group"><div className="flex flex-col gap-7.5"><buttonsgroupone><buttonsgrouptwo></buttonsgrouptwo></buttonsgroupone></div></breadcrumb>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default ButtonsGroup;

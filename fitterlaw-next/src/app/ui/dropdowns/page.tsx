@@ -11,7 +11,15 @@ export const metadata: Metadata = {
 };
 
 const DropdownPage = () =&gt; {
-  return (<DefaultLayout><dropdowns></dropdowns></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<dropdowns></dropdowns>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default DropdownPage;

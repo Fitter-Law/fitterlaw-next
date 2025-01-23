@@ -10,7 +10,15 @@ export const metadata: Metadata = {
 };
 
 const AdvancedChartPage: React.FC = () =&gt; {
-  return (<DefaultLayout><advancedchart></advancedchart></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<advancedchart></advancedchart>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default AdvancedChartPage;

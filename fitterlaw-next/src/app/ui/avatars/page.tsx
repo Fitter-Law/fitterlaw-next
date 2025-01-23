@@ -12,7 +12,15 @@ export const metadata: Metadata = {
 };
 
 const AvatarsPage = () =&gt; {
-  return (<DefaultLayout><breadcrumb pagename="Avatars"><div className="flex flex-col gap-7.5"><div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"><div className="border-b border-stroke px-4 py-4 dark:border-strokedark sm:px-6 xl:px-9"><h3 className="font-medium text-black dark:text-white">Style 1</h3></div><div className="px-4 py-9 sm:px-6 xl:px-8.5"><avatarone></avatarone></div></div><div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"><div className="border-b border-stroke px-4 py-4 dark:border-strokedark sm:px-6 xl:px-9"><h3 className="font-medium text-black dark:text-white">Style 2</h3></div><div className="p-4 sm:p-6 xl:p-9"><avatartwo></avatartwo></div></div></div></breadcrumb></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<breadcrumb pagename="Avatars"><div className="flex flex-col gap-7.5"><div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"><div className="border-b border-stroke px-4 py-4 dark:border-strokedark sm:px-6 xl:px-9"><h3 className="font-medium text-black dark:text-white">Style 1</h3></div><div className="px-4 py-9 sm:px-6 xl:px-8.5"><avatarone></avatarone></div></div><div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"><div className="border-b border-stroke px-4 py-4 dark:border-strokedark sm:px-6 xl:px-9"><h3 className="font-medium text-black dark:text-white">Style 2</h3></div><div className="p-4 sm:p-6 xl:p-9"><avatartwo></avatartwo></div></div></div></breadcrumb>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default AvatarsPage;

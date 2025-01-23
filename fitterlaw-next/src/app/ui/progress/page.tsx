@@ -11,7 +11,15 @@ export const metadata: Metadata = {
 };
 
 const ProgressPage: React.FC = () =&gt; {
-  return (<DefaultLayout><progress></progress></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<progress></progress>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default ProgressPage;

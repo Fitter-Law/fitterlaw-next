@@ -13,7 +13,15 @@ export const metadata: Metadata = {
 };
 
 const Pagination: React.FC = () =&gt; {
-  return (<DefaultLayout><breadcrumb pagename="Pagination"><div className="flex flex-col gap-7.5"><paginationone><paginationtwo><paginationthree></paginationthree></paginationtwo></paginationone></div></breadcrumb></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<breadcrumb pagename="Pagination"><div className="flex flex-col gap-7.5"><paginationone><paginationtwo><paginationthree></paginationthree></paginationtwo></paginationone></div></breadcrumb>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default Pagination;

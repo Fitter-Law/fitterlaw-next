@@ -11,7 +11,15 @@ export const metadata: Metadata = {
 };
 
 const InboxPage: React.FC = () =&gt; {
-  return (<DefaultLayout><inbox></inbox></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<inbox></inbox>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default InboxPage;

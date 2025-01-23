@@ -9,7 +9,15 @@ export const metadata: Metadata = {
     "This is Next.js List page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 const TaskListPage = () =&gt; {
-  return (<DefaultLayout><tasklist></tasklist></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<tasklist></tasklist>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default TaskListPage;

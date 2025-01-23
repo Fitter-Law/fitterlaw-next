@@ -10,7 +10,15 @@ export const metadata: Metadata = {
 };
 
 const FormElementsPage = () =&gt; {
-  return (<DefaultLayout><formelements></formelements></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<formelements></formelements>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default FormElementsPage;

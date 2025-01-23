@@ -10,7 +10,15 @@ export const metadata: Metadata = {
 };
 
 const ProFormElementsPage = () =&gt; {
-  return (<DefaultLayout><proformelements></proformelements></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<proformelements></proformelements>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default ProFormElementsPage;

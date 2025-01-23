@@ -10,7 +10,15 @@ export const metadata: Metadata = {
 };
 
 const AnalyticsPage = () =&gt; {
-  return (<DefaultLayout><analytics></analytics></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<analytics></analytics>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default AnalyticsPage;

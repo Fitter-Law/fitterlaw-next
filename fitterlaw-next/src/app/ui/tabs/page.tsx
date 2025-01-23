@@ -10,7 +10,15 @@ export const metadata: Metadata = {
 };
 
 const TabsPage = () =&gt; {
-  return (<DefaultLayout><tabs></tabs></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<tabs></tabs>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default TabsPage;

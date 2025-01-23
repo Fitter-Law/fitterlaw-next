@@ -10,7 +10,15 @@ export const metadata: Metadata = {
 };
 
 const PopOversPage = () =&gt; {
-  return (<DefaultLayout><popovers></popovers></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<popovers></popovers>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default PopOversPage;

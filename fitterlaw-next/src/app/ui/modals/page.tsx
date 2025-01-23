@@ -12,7 +12,15 @@ export const metadata: Metadata = {
 };
 
 const ModalPage = () =&gt; {
-  return (<DefaultLayout><modals></modals></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<modals></modals>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default ModalPage;

@@ -11,7 +11,15 @@ export const metadata: Metadata = {
 };
 
 const Videos: React.FC = () =&gt; {
-  return (<DefaultLayout><breadcrumb pagename="Videos"><div className="flex flex-col gap-7.5"><videositem title="Embeds Video" embeds=""><videositem title="Responsive Aspect ratios 4:3" aspectfour=""><videositem title="Responsive Aspect ratios 21:9" aspecttwentyone=""><videositem title="Responsive Aspect ratios 1:1" aspectone=""></videositem></videositem></videositem></videositem></div></breadcrumb></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<breadcrumb pagename="Videos"><div className="flex flex-col gap-7.5"><videositem title="Embeds Video" embeds=""><videositem title="Responsive Aspect ratios 4:3" aspectfour=""><videositem title="Responsive Aspect ratios 21:9" aspecttwentyone=""><videositem title="Responsive Aspect ratios 1:1" aspectone=""></videositem></videositem></videositem></videositem></div></breadcrumb>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default Videos;

@@ -12,7 +12,15 @@ export const metadata: Metadata = {
 };
 
 const BreadcrumbsPage = () =&gt; {
-  return (<DefaultLayout><breadcrumbs></breadcrumbs></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<breadcrumbs></breadcrumbs>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default BreadcrumbsPage;

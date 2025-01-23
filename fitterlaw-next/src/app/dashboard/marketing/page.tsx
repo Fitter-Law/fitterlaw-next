@@ -11,7 +11,15 @@ export const metadata: Metadata = {
 };
 
 const MarketingPage = () =&gt; {
-  return (<DefaultLayout><marketing></marketing></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<marketing></marketing>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default MarketingPage;

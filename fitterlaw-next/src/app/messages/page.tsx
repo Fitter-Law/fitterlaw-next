@@ -12,7 +12,15 @@ export const metadata: Metadata = {
 };
 
 const MessagesPage = () =&gt; {
-  return (<DefaultLayout><messages></messages></DefaultLayout>);
+  return (
+  <DefaultLayout>
+    return (
+  
+    return (<messages></messages>);
+  
+);
+  </DefaultLayout>
+);
 };
 
 export default MessagesPage;
