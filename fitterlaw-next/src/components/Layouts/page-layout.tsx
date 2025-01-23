@@ -1,5 +1,5 @@
 import React from 'react';
-import { Breadcrumb } from '@/components/common';
+import { Breadcrumb } from '@src\components\Breadcrumbs\Breadcrumb';
 
 const PageLayout = ({ children, title, subtitle }) => {
   return (
