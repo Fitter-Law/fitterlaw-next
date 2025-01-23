@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumb from '@/components/Breadcrumbs/Breadcrumb';
 
 interface PageLayoutProps {
-  children: React.ReactNode;
+  children: string;
   title: string;
   subtitle: string;
 }
