@@ -3,7 +3,7 @@ import Layout from '@/components/Layouts/page-layout';
 
 export default function aboutPage() {
   return (
-    <Layout>
+
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">About Us</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=11; post_author=1; post_date=2019-05-26 22:38:14; post_date_gmt=2019-05-26 22:38:14; post_content=<h2>ABOUT FITTER LAW</h2>		
