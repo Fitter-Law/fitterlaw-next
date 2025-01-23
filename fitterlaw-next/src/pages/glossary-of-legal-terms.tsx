@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function glossary_of_legal_termsPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Glossary of Legal Terms</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=1061; post_author=1; post_date=2020-11-03 07:30:04; post_date_gmt=2020-11-03 13:30:04; post_content=<h2>A</h2>
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">glossary of legal terms</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<h2>A</h2>
 <h3><strong><strong>Acquittal:</strong></strong></h3>
 A jury verdict that a criminal defendant is not guilty, or the finding of a judge that the evidence is insufficient to support a conviction.
 <h3><strong>Active judge:</strong></h3>
@@ -507,8 +507,8 @@ A person called upon by either side in a lawsuit to give testimony before the co
 <h3><strong>Writ:</strong></h3>
 A written court order directing a person to take, or refrain from taking, a certain act.
 <h3><strong>Writ of certiorari:</strong></h3>
-An order issued by the U.S. Supreme Court directing the lower court to transmit records for a case which it will hear on appeal.; post_title=Glossary of Legal Terms; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=glossary-of-legal-terms; to_ping=; pinged=; post_modified=2020-11-03 07:33:07; post_modified_gmt=2020-11-03 13:33:07; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=1061; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+An order issued by the U.S. Supreme Court directing the lower court to transmit records for a case which it will hear on appeal.` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

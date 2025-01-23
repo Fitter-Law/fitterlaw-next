@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function alternative_dispute_resolutionPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Alternative Dispute Resolution</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=326; post_author=1; post_date=2019-07-12 21:39:43; post_date_gmt=2019-07-13 02:39:43; post_content=<!-- wp:paragraph -->
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">alternative dispute resolution</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<!-- wp:paragraph -->
 <p>Alternative dispute resolution (ADR) refers to a variety of processes that help parties resolve disputes without a trial. Typical ADR processes include arbitration and mediation. </p>
 <!-- /wp:paragraph -->
 
@@ -25,8 +25,8 @@ export default function alternative_dispute_resolutionPage() {
 <p></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:block {"ref":216} /-->; post_title=Alternative Dispute Resolution; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=alternative-dispute-resolution; to_ping=; pinged=; post_modified=2021-09-28 16:11:24; post_modified_gmt=2021-09-28 21:11:24; post_content_filtered=; post_parent=13; guid=https://fitterlaw.com/?page_id=326; menu_order=4; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+<!-- wp:block {"ref":216} /-->` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

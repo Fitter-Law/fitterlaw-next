@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function finra_arbitrationPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">FINRA Arbitration</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=319; post_author=1; post_date=2019-07-12 21:38:25; post_date_gmt=2019-07-13 02:38:25; post_content=<!-- wp:paragraph -->
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">finra arbitration</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<!-- wp:paragraph -->
 <p><strong>FINRA Dispute Resolution</strong></p>
 <!-- /wp:paragraph -->
 
@@ -95,8 +95,8 @@ Rules, which apply to:</p>
 
 <!-- wp:html -->
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/eb4aafed67016f283d75bca2b/20d9f7d5756ec3a85c71d2060.js");</script>
-<!-- /wp:html -->; post_title=FINRA Arbitration; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=finra-arbitration; to_ping=; pinged=; post_modified=2021-09-28 16:11:06; post_modified_gmt=2021-09-28 21:11:06; post_content_filtered=; post_parent=13; guid=https://fitterlaw.com/?page_id=319; menu_order=2; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+<!-- /wp:html -->` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function unlimited_legal_subscriptionPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Unlimited Legal Subscription Plan</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=2754; post_author=1; post_date=2021-03-17 19:13:19; post_date_gmt=2021-03-18 00:13:19; post_content=<h2>
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">unlimited legal subscription</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<h2>
 				Lawyers			
 				Legal&nbsp;Advisors			
 				Compliance&nbsp;Team			
@@ -50,8 +50,8 @@ export default function unlimited_legal_subscriptionPage() {
 						It has never been easier to obtain legal representation for your business.					
 						See Pricing					
 						</a>
-		[elementor-template id="1137"]; post_title=Unlimited Legal Subscription Plan; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=unlimited-legal-subscription; to_ping=; pinged=; post_modified=2024-09-30 01:59:23; post_modified_gmt=2024-09-30 06:59:23; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=2754; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+		[elementor-template id="1137"]` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

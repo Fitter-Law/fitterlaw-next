@@ -1,8 +1,12 @@
 import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
-
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+export default function _appPage() {
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4"> app</h1>
+       <div dangerouslySetInnerHTML={{ __html: `` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

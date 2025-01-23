@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function legal_templatesPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Legal Templates</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=10503; post_author=1; post_date=2023-10-02 16:33:12; post_date_gmt=2023-10-02 21:33:12; post_content=<p style="text-align: center;"><a href="https://fitterlaw.com/pricing/"><strong>UPGRADE NOW</strong></a></p>
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">legal templates</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<p style="text-align: center;"><a href="https://fitterlaw.com/pricing/"><strong>UPGRADE NOW</strong></a></p>
 <p>Get access to these and more legal templates:</p>
 <p>Â </p>
 <p><a href="https://fitterlaw.com/pricing/">Accounting Services Contract</a></p>
@@ -32,8 +32,8 @@ export default function legal_templatesPage() {
 
 <!-- wp:paragraph -->
 <p></p>
-<!-- /wp:paragraph -->; post_title=Legal Templates; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=legal-templates; to_ping=; pinged=; post_modified=2024-12-17 21:53:58; post_modified_gmt=2024-12-18 03:53:58; post_content_filtered=; post_parent=597; guid=https://fitterlaw.com/?page_id=10503; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+<!-- /wp:paragraph -->` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

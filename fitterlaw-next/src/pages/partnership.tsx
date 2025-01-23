@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function partnershipPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Partnership</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=1736; post_author=1; post_date=2020-12-21 15:25:31; post_date_gmt=2020-12-21 21:25:31; post_content=<h2>WHY PARTNER WITH FITTER LAW</h2>
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">partnership</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<h2>WHY PARTNER WITH FITTER LAW</h2>
 <h2 style="text-align: center;">Manage your client's legal needs and expectations with UNLIMITED access</h2>
 <p style="text-align: center;"><em>We make it easy for our partners by working together to grow and protect our clients respective businesses.</em></p>
 										<img src="https://fitterlaw.com/wp-content/uploads/elementor/thumbs/quote-ozd0l8x10l2jqrs60ilt7x8y4ul33kjmcjobd1okl4.png" title="quote" alt="quote">
@@ -64,8 +64,8 @@ export default function partnershipPage() {
 
 <hr>
 
-<label for="ff_11_Partnering_Ideas">Tell us how you see yourself partnering with us:</label> <textarea name="Partnering_Ideas" id="ff_11_Partnering_Ideas" rows="3" cols="2" data-name="Partnering_Ideas"></textarea><button type="submit">Submit Form</button></form>; post_title=Partnership; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=partnership; to_ping=; pinged=; post_modified=2022-10-07 02:11:24; post_modified_gmt=2022-10-07 07:11:24; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=1736; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+<label for="ff_11_Partnering_Ideas">Tell us how you see yourself partnering with us:</label> <textarea name="Partnering_Ideas" id="ff_11_Partnering_Ideas" rows="3" cols="2" data-name="Partnering_Ideas"></textarea><button type="submit">Submit Form</button></form>` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

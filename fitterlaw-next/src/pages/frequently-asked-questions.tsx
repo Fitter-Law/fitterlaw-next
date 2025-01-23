@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function frequently_asked_questionsPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Frequently Asked Questions</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=3025; post_author=1; post_date=2021-04-08 19:53:55; post_date_gmt=2021-04-09 00:53:55; post_content=<h4>FAQ</h4>		
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">frequently asked questions</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<h4>FAQ</h4>		
 			<h4>Are you a law firm?</h4>		
 		<p>Yes, we are a law firm, headquartered in Chicago, licensed to practice in Illinois and on Federal matters.</p>		
 			<h4>How many subscribers do you normally accept?</h4>		
@@ -34,8 +34,8 @@ export default function frequently_asked_questionsPage() {
 		<p><a href="https://fitterlaw.com/contact-us/">Contact us</a></p>		
 			<a href="https://fitterlaw.com/pricing/" role="button">
 						Apply Now!
-					</a>; post_title=Frequently Asked Questions; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=frequently-asked-questions; to_ping=; pinged=; post_modified=2021-04-08 20:46:32; post_modified_gmt=2021-04-09 01:46:32; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=3025; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+					</a>` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

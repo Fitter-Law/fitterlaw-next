@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function pricingPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Pricing</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=1412; post_author=1; post_date=2020-11-28 05:59:17; post_date_gmt=2020-11-28 11:59:17; post_content=<h3>
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">pricing</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<h3>
 						Self <br> Service						</h3>
 								&#036;									
 						49					
@@ -149,8 +149,8 @@ export default function pricingPage() {
 						</li>
 									</ul>
 											<a href="https://fitterlaw.com?ff_landing=8&#038;form=new-enterprise-client-application">
-							Contact Us						</a>; post_title=Pricing; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=pricing; to_ping=; pinged=; post_modified=2024-12-12 22:06:52; post_modified_gmt=2024-12-13 04:06:52; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=1412; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+							Contact Us						</a>` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

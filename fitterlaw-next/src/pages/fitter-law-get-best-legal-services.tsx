@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function fitter_law_get_best_legal_servicesPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Fitter Law - Get Best Legal Services</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=4046; post_author=39; post_date=2022-06-18 02:59:28; post_date_gmt=2022-06-18 07:59:28; post_content=<p></p>
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">fitter law get best legal services</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<p></p>
 
 <!-- wp:heading {"textAlign":"center","level":1} -->
 </p>
@@ -57,8 +57,8 @@ export default function fitter_law_get_best_legal_servicesPage() {
 <h3 style="font-style: normal;">Trademarks, Copyrights, Patents&nbsp;</h3>
 <p><strong style="font-style: normal; font-size: 23px; text-align: start;">Litigation<br></strong><br>Commercial Litigation, ERISA, Insurance, Labor &amp; Employment, Mergers &amp; Acquisition, Real Estate, Securities, Trusts &amp; Estates, Construction, Arbitration, Mediation, and more</p>
 <h2>
-<p>CONTACT US</p></h2>; post_title=Fitter Law - Get Best Legal Services; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=fitter-law-get-best-legal-services; to_ping=; pinged=; post_modified=2024-09-30 02:09:18; post_modified_gmt=2024-09-30 07:09:18; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=4046; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+<p>CONTACT US</p></h2>` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

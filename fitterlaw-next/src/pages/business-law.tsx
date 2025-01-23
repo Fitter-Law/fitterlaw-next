@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function business_lawPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Business Law</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=309; post_author=1; post_date=2019-07-12 21:03:21; post_date_gmt=2019-07-13 02:03:21; post_content=<h2>Business Law</h2>				
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">business law</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<h2>Business Law</h2>				
 					<a role="button">
 									Subscribe Now
 					</a>
@@ -57,8 +57,8 @@ export default function business_lawPage() {
 						Get a consultation on starting your Corporation and get legal documents specific to your needs					
 					<a href="https://fitterlaw.com/appointments/">
 						Request Appointment					</a>
-				Need Help?; post_title=Business Law; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=business-law; to_ping=; pinged=; post_modified=2024-12-27 12:59:52; post_modified_gmt=2024-12-27 18:59:52; post_content_filtered=; post_parent=13; guid=https://fitterlaw.com/?page_id=309; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+				Need Help?` }} />
+     </div>
+   </DefaultLayout>
+ );
 }

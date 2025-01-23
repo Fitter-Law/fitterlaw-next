@@ -1,11 +1,11 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function resourcesPage() {
-  return (
-    <DefaultLayout>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Resources</h1>
-        <div dangerouslySetInnerHTML={{ __html: $(@{ID=2147; post_author=1; post_date=2021-01-08 17:59:24; post_date_gmt=2021-01-08 23:59:24; post_content=<img width="300" height="149" src="https://fitterlaw.com/wp-content/uploads/2021/01/cartalogo-300x149.jpg" alt="" loading="lazy" srcset="https://i2.wp.com/fitterlaw.com/wp-content/uploads/2021/01/cartalogo.jpg?resize=300%2C149&amp;ssl=1 300w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2021/01/cartalogo.jpg?resize=1024%2C507&amp;ssl=1 1024w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2021/01/cartalogo.jpg?resize=768%2C380&amp;ssl=1 768w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2021/01/cartalogo.jpg?resize=1170%2C580&amp;ssl=1 1170w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2021/01/cartalogo.jpg?w=1280&amp;ssl=1 1280w" sizes="(max-width: 300px) 100vw, 300px" />														
+ return (
+   <DefaultLayout>
+     <div className="container mx-auto px-4 py-8">
+       <h1 className="text-3xl font-bold mb-4">resources</h1>
+       <div dangerouslySetInnerHTML={{ __html: `<img width="300" height="149" src="https://fitterlaw.com/wp-content/uploads/2021/01/cartalogo-300x149.jpg" alt="" loading="lazy" srcset="https://i2.wp.com/fitterlaw.com/wp-content/uploads/2021/01/cartalogo.jpg?resize=300%2C149&amp;ssl=1 300w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2021/01/cartalogo.jpg?resize=1024%2C507&amp;ssl=1 1024w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2021/01/cartalogo.jpg?resize=768%2C380&amp;ssl=1 768w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2021/01/cartalogo.jpg?resize=1170%2C580&amp;ssl=1 1170w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2021/01/cartalogo.jpg?w=1280&amp;ssl=1 1280w" sizes="(max-width: 300px) 100vw, 300px" />														
 			<h5>EQUITY MANAGEMENT</h5>		
 			<a href="https://fitterlaw.com/appointments/" role="button">
 						LEARN MORE
@@ -106,8 +106,8 @@ export default function resourcesPage() {
 			<a href="https://fitterlaw.com/illinois-business-service-forms/" role="button">
 						LEARN MORE
 					</a>
-		<p>Illinois Business Service Forms, provided by the State of Illinois.Â  You can click on a form, complete the form, print it, and mail it at your own discretion.Â </p>; post_title=Resources; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=resources; to_ping=; pinged=; post_modified=2021-11-09 17:23:38; post_modified_gmt=2021-11-09 23:23:38; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=2147; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
-      </div>
-    </DefaultLayout>
-  );
+		<p>Illinois Business Service Forms, provided by the State of Illinois.Â  You can click on a form, complete the form, print it, and mail it at your own discretion.Â </p>` }} />
+     </div>
+   </DefaultLayout>
+ );
 }
