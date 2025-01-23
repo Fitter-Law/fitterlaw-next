@@ -1,4 +1,4 @@
-﻿import Layout from '@/components/layouts/page-layout';
+﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function july_2021Page() {
   return (

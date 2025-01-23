@@ -1,4 +1,4 @@
-﻿import Layout from '@/components/layouts/page-layout';
+﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function business_legal_risk_assessmentPage() {
   return (

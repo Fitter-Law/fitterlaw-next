@@ -1,4 +1,4 @@
-﻿import Layout from '@/components/layouts/page-layout';
+﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function contract_analysis_toolPage() {
   return (
