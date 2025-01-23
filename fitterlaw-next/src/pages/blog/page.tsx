@@ -36,5 +36,10 @@ export default function BlogPage() {
     }
   ];
 
-  return (<DefaultLayout></DefaultLayout></a><div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1"><a href="\&quot;https://fitterlaw.com/subscription/legal-guides/understanding-corporations/\&quot;"><h1 className="mb-4 text-title-md2 font-bold text-black dark:text-white">Blog</h1></a><div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a href="\&quot;https://fitterlaw.com/subscription/legal-guides/understanding-corporations/\&quot;">{posts.map((post) =&gt; (</a><a key="{post.slug}" href="{`/blog/${post.slug}`}" className="block"><div className="rounded-sm border border-stroke bg-white p-4 shadow-default dark:border-strokedark dark:bg-boxdark"><h2 className="mb-2 text-lg font-semibold text-black dark:text-white">{post.title}</h2><p className="mb-4 text-sm text-body dark:text-bodydark">{new Date(post.date).toLocaleDateString()}</p>{post.excerpt &amp;&amp; (<p className="text-sm">{post.excerpt}</p>)}</div></a>))}</div></div>);
+  return (
+  <DefaultLayout>
+    <div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1"><a href="\&quot;https://fitterlaw.com/subscription/legal-guides/understanding-corporations/\&quot;"><h1 className="mb-4 text-title-md2 font-bold text-black dark:text-white">Blog</h1></a><div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a href="\&quot;https://fitterlaw.com/subscription/legal-guides/understanding-corporations/\&quot;">{posts.map((post) =&gt; (</a><a key="{post.slug}" href="{`/blog/${post.slug}`}" className="block"><div className="rounded-sm border border-stroke bg-white p-4 shadow-default dark:border-strokedark dark:bg-boxdark"><h2 className="mb-2 text-lg font-semibold text-black dark:text-white">{post.title}</h2><p className="mb-4 text-sm text-body dark:text-bodydark">{new Date(post.date).toLocaleDateString()}</p>{post.excerpt &amp;&amp; (<p className="text-sm">{post.excerpt}</p>)}</div></a>))}</div>
+    </div>
+  </DefaultLayout>
+);
 }</strong>
