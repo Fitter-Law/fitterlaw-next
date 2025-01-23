@@ -1,7 +1,11 @@
 import React from 'react';
 import DOMPurify from 'isomorphic-dompurify';
 
-const ContentProcessor = ({ content }) => {
+interface ContentProcessorProps {
+  content: string;
+}
+
+const ContentProcessor = ({ content }: ContentProcessorProps) => {
   // Clean and sanitize WordPress content
   const cleanContent = DOMPurify.sanitize(content, {
     ADD_TAGS: ['iframe'],
