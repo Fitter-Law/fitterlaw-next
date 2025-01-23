@@ -1,4 +1,4 @@
-<html><head></head><body>import { ApexOptions } from "apexcharts";
+import { ApexOptions } from "apexcharts";
 import React, { useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
@@ -110,4 +110,4 @@ const ChartEleven: React.FC<chartelevenprops>= ({
   return (<div classname="relative h-7.5 w-full max-w-25"><div classname="chartEleven chartEleven-01 absolute right-0 top-1/2 -ml-5 -translate-y-1/2"><reactapexchart options="{options}" series="{state.series}" type="area" height="{70}"></reactapexchart></div></div>);
 };
 
-export default ChartEleven;</chartelevenstate></chartelevenprops></body></html>
+export default ChartEleven;</chartelevenstate></chartelevenprops>

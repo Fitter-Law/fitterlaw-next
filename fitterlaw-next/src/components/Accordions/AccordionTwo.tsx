@@ -1,4 +1,4 @@
-<html><head></head><body>import React, { useState } from "react";
+import React, { useState } from "react";
 import AccordionItemTwo from "./AccordionItemTwo";
 import { FAQ } from "@/types/faq";
 
@@ -38,9 +38,7 @@ const AccordionTwo: React.FC = () =&gt; {
     }
   };
 
-  return (<div classname="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"><div classname="border-b border-stroke px-4 py-4 dark:border-strokedark sm:px-6 xl:px-7.5"><h3 classname="font-medium text-black dark:text-white">Accordions Style 2</h3></div><div classname="p-4 sm:p-6 xl:p-12.5"><div classname="flex flex-col gap-7.5">{faqs.map((faq) =&gt; {
-            return (<accordionitemtwo key="{faq.id}" active="{active}" handletoggle="{handleToggle}" faq="{faq}">);
-          })}</accordionitemtwo></div></div></div>);
+  return (<div classname="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"><div classname="border-b border-stroke px-4 py-4 dark:border-strokedark sm:px-6 xl:px-7.5"><h3 classname="font-medium text-black dark:text-white">Accordions Style 2</h3></div><div classname="p-4 sm:p-6 xl:p-12.5"><div classname="flex flex-col gap-7.5">{faqs.map((faq) =&gt; { return (<accordionitemtwo key="{faq.id}" active="{active}" handletoggle="{handleToggle}" faq="{faq}">); })}</accordionitemtwo></div></div></div>);
 };
 
-export default AccordionTwo;</number></body></html>
+export default AccordionTwo;</number>

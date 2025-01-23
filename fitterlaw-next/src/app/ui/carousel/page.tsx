@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Carousel from "@/components/Carousels";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -14,4 +14,4 @@ const CarouselPage = () =&gt; {
   return (<defaultlayout><carousel></carousel></defaultlayout>);
 };
 
-export default CarouselPage;</body></html>
+export default CarouselPage;

@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Images from "@/components/Images";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -14,4 +14,4 @@ const ImagesPage = () =&gt; {
   return (<defaultlayout><images></images></defaultlayout>);
 };
 
-export default ImagesPage;</body></html>
+export default ImagesPage;

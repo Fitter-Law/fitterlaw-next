@@ -1,4 +1,4 @@
-<html><head></head><body>import { useEffect } from "react";
+import { useEffect } from "react";
 import useLocalStorage from "./useLocalStorage";
 
 const useColorMode = () =&gt; {
@@ -16,4 +16,4 @@ const useColorMode = () =&gt; {
   return [colorMode, setColorMode];
 };
 
-export default useColorMode;</body></html>
+export default useColorMode;

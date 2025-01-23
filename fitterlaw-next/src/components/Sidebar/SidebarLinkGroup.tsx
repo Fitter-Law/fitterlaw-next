@@ -1,4 +1,4 @@
-<html><head></head><body>"use client";
+"use client";
 import { ReactNode, useState } from "react";
 
 interface SidebarLinkGroupProps {
@@ -19,4 +19,4 @@ const SidebarLinkGroup = ({
   return<li>{children(handleClick, open)}</li>;
 };
 
-export default SidebarLinkGroup;</boolean></body></html>
+export default SidebarLinkGroup;</boolean>

@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import BadgeOne from "@/components/Badges/BadgeOne";
 import BadgeTwo from "@/components/Badges/BadgeTwo";
@@ -19,4 +19,4 @@ const Badge: React.FC = () =&gt; {
   return (<defaultlayout><breadcrumb pagename="Badge"><div classname="flex flex-col gap-7.5"><badgeone><badgetwo><badgethree><badgefour></badgefour></badgethree></badgetwo></badgeone></div></breadcrumb></defaultlayout>);
 };
 
-export default Badge;</body></html>
+export default Badge;

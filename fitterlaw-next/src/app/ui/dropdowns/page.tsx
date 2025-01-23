@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Dropdowns from "@/components/Dropdowns";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -14,4 +14,4 @@ const DropdownPage = () =&gt; {
   return (<defaultlayout><dropdowns></dropdowns></defaultlayout>);
 };
 
-export default DropdownPage;</body></html>
+export default DropdownPage;

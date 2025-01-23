@@ -1,4 +1,4 @@
-<html><head></head><body>import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
+import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import TableOne from "@/components/Tables/TableOne";
 import TableThree from "@/components/Tables/TableThree";
 import TableTwo from "@/components/Tables/TableTwo";
@@ -16,4 +16,4 @@ const TablesPage = () =&gt; {
   return (<defaultlayout><breadcrumb pagename="Tables"><div classname="flex flex-col gap-10"><tableone><tabletwo><tablethree></tablethree></tabletwo></tableone></div></breadcrumb></defaultlayout>);
 };
 
-export default TablesPage;</body></html>
+export default TablesPage;

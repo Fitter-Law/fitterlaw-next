@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import TaskKanban from "@/components/Tasks/KanbanTasks";
 
 import { Metadata } from "next";
@@ -15,4 +15,4 @@ const TaskKanbanPage = () =&gt; {
   return (<defaultlayout><taskkanban></taskkanban></defaultlayout>);
 };
 
-export default TaskKanbanPage;</body></html>
+export default TaskKanbanPage;

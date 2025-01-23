@@ -1,4 +1,4 @@
-<html><head></head><body>import React from 'react';
+import React from 'react';
 import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 interface Post {
@@ -37,4 +37,4 @@ export default function BlogPage() {
   ];
 
   return (<defaultlayout></defaultlayout></a><div classname="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1"><a href="\&quot;https://fitterlaw.com/subscription/legal-guides/understanding-corporations/\&quot;"><h1 classname="mb-4 text-title-md2 font-bold text-black dark:text-white">Blog</h1></a><div classname="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"><a href="\&quot;https://fitterlaw.com/subscription/legal-guides/understanding-corporations/\&quot;">{posts.map((post) =&gt; (</a><a key="{post.slug}" href="{`/blog/${post.slug}`}" classname="block"><div classname="rounded-sm border border-stroke bg-white p-4 shadow-default dark:border-strokedark dark:bg-boxdark"><h2 classname="mb-2 text-lg font-semibold text-black dark:text-white">{post.title}</h2><p classname="mb-4 text-sm text-body dark:text-bodydark">{new Date(post.date).toLocaleDateString()}</p>{post.excerpt &amp;&amp; (<p classname="text-sm">{post.excerpt}</p>)}</div></a>))}</div></div>);
-}</strong></body></html>
+}</strong>

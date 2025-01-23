@@ -1,4 +1,4 @@
-<html><head></head><body>import CRM from "@/components/Dashboard/CRM";
+import CRM from "@/components/Dashboard/CRM";
 
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -14,4 +14,4 @@ const CrmPage = () =&gt; {
   return (<defaultlayout><crm></crm></defaultlayout>);
 };
 
-export default CrmPage;</body></html>
+export default CrmPage;

@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Image from "next/image";
 
 interface Avatar {
@@ -34,4 +34,4 @@ const AvatarOne: React.FC = () =&gt; {
   return (<div classname="flex items-center gap-6">{avatarItems.map((item, index) =&gt; (<div key="{index}" classname="{`w-full" rounded-full="" ${item.classes}`}=""><img width="{item.size}" height="{item.size}" style="{{" width:="" "100%",="" height:="" "auto",="" }}="" src="{item.image}" alt="User" priority=""></div>))}</div>);
 };
 
-export default AvatarOne;</body></html>
+export default AvatarOne;

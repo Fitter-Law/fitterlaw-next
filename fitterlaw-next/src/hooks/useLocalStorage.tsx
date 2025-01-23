@@ -1,4 +1,4 @@
-<html><head></head><body>"use client";
+"use client";
 import { useEffect, useState } from "react";
 
 type SetValue<t>= T | ((val: T) =&gt; T);
@@ -47,4 +47,4 @@ function useLocalStorage<t>(
   return [storedValue, setStoredValue];
 }
 
-export default useLocalStorage;</t></t></t></body></html>
+export default useLocalStorage;</t></t></t>

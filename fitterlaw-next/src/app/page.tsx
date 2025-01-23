@@ -1,4 +1,4 @@
-<html><head></head><body>import ECommerce from "@/components/Dashboard/E-commerce";
+import ECommerce from "@/components/Dashboard/E-commerce";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
@@ -9,6 +9,5 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return (
-    &lt;&gt;<defaultlayout><ecommerce></ecommerce></defaultlayout>);
-}</body></html>
+  return (&lt;&gt;<defaultlayout><ecommerce></ecommerce></defaultlayout>);
+}

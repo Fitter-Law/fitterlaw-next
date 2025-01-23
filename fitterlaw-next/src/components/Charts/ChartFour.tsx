@@ -1,4 +1,4 @@
-<html><head></head><body>import { ApexOptions } from "apexcharts";
+import { ApexOptions } from "apexcharts";
 import React, { useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
@@ -138,4 +138,4 @@ const ChartFour: React.FC = () =&gt; {
   return (<div classname="col-span-12 rounded-sm border border-stroke bg-white px-5 pb-5 pt-7.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5"><div><h3 classname="text-xl font-semibold text-black dark:text-white">Visitors Analytics</h3></div><div classname="mb-2"><div id="chartFour" classname="-ml-5"><reactapexchart options="{options}" series="{state.series}" type="bar" height="{350}"></reactapexchart></div></div></div>);
 };
 
-export default ChartFour;</chartfourstate></body></html>
+export default ChartFour;</chartfourstate>

@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import NotificationsOne from "@/components/Notifications/NotificationsOne";
 import NotificationsTwo from "@/components/Notifications/NotificationsTwo";
@@ -17,4 +17,4 @@ const Notifications: React.FC = () =&gt; {
   return (<defaultlayout><breadcrumb pagename="Notifications"><div classname="flex flex-col gap-7.5"><notificationsone><notificationstwo><notificationsthree><notificationsfour></notificationsfour></notificationsthree></notificationstwo></notificationsone></div></breadcrumb></defaultlayout>);
 };
 
-export default Notifications;</body></html>
+export default Notifications;

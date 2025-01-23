@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Modals from "@/components/Modals";
 
 import { Metadata } from "next";
@@ -15,4 +15,4 @@ const ModalPage = () =&gt; {
   return (<defaultlayout><modals></modals></defaultlayout>);
 };
 
-export default ModalPage;</body></html>
+export default ModalPage;

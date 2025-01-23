@@ -1,7 +1,7 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 
 const BadgeOne: React.FC = () =&gt; {
   return (<div classname="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"><div classname="border-b border-stroke px-4 py-4 dark:border-strokedark sm:px-6 xl:px-7.5"><h3 classname="font-medium text-black dark:text-white">Badge Style 1</h3></div><div classname="p-4 sm:p-6 xl:p-10"><div classname="flex flex-wrap items-center gap-2 sm:gap-4.5"><button classname="inline-flex rounded bg-primary px-2 py-1 text-sm font-medium text-white hover:bg-opacity-90">Primary</button><button classname="inline-flex rounded bg-[#13C296] px-2 py-1 text-sm font-medium text-white hover:bg-opacity-90">Secondary</button><button classname="inline-flex rounded bg-[#212B36] px-2 py-1 text-sm font-medium text-white hover:bg-opacity-90">Dark</button><button classname="inline-flex rounded bg-[#637381] px-2 py-1 text-sm font-medium text-white hover:bg-opacity-90">Gray</button><button classname="inline-flex rounded bg-[#EFEFEF] px-2 py-1 text-sm font-medium text-[#212B36] hover:bg-opacity-90">Light</button><button classname="inline-flex rounded bg-[#F9C107] px-2 py-1 text-sm font-medium text-[#212B36] hover:bg-opacity-90">Warning</button><button classname="inline-flex rounded bg-[#DC3545] px-2 py-1 text-sm font-medium text-white hover:bg-opacity-90">Danger</button><button classname="inline-flex rounded bg-[#3CA745] px-2 py-1 text-sm font-medium text-white hover:bg-opacity-90">Success</button><button classname="inline-flex rounded bg-[#3BA2B8] px-2 py-1 text-sm font-medium text-white hover:bg-opacity-90">Info</button></div></div></div>);
 };
 
-export default BadgeOne;</body></html>
+export default BadgeOne;

@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Tabs from "@/components/Tabs";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -13,4 +13,4 @@ const TabsPage = () =&gt; {
   return (<defaultlayout><tabs></tabs></defaultlayout>);
 };
 
-export default TabsPage;</body></html>
+export default TabsPage;

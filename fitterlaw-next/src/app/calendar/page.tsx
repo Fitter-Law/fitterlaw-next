@@ -1,4 +1,4 @@
-<html><head></head><body>import Calendar from "@/components/Calender";
+import Calendar from "@/components/Calender";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
@@ -13,4 +13,4 @@ const CalendarPage = () =&gt; {
   return (<defaultlayout><calendar></calendar></defaultlayout>);
 };
 
-export default CalendarPage;</body></html>
+export default CalendarPage;

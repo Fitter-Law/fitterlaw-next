@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Messages from "@/components/Messages";
 
 import { Metadata } from "next";
@@ -15,4 +15,4 @@ const MessagesPage = () =&gt; {
   return (<defaultlayout><messages></messages></defaultlayout>);
 };
 
-export default MessagesPage;</body></html>
+export default MessagesPage;

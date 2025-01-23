@@ -1,4 +1,4 @@
-<html><head></head><body>import noUiSlider from "nouislider";
+import noUiSlider from "nouislider";
 import { useEffect } from "react";
 
 const RangeSliderTwo = () =&gt; {
@@ -13,12 +13,7 @@ const RangeSliderTwo = () =&gt; {
         max: 100,
       },
     });
-    return () =&gt; {
-      (sliderTwo.noUiSlider as any).destroy();
-    };
-  }, []);
-
-  return (<div classname="rangeSliderCommon rangeSliderTwo"><div id="rangeSliderTwo"></div></div>);
+    return () =&gt; { (sliderTwo.noUiSlider as any).destroy(); }; }, []); return (<div classname="rangeSliderCommon rangeSliderTwo"><div id="rangeSliderTwo"></div></div>);
 };
 
-export default RangeSliderTwo;</body></html>
+export default RangeSliderTwo;

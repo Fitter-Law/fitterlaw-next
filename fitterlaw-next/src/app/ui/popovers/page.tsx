@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Popovers from "@/components/Popovers";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -13,4 +13,4 @@ const PopOversPage = () =&gt; {
   return (<defaultlayout><popovers></popovers></defaultlayout>);
 };
 
-export default PopOversPage;</body></html>
+export default PopOversPage;

@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import PricingTableOne from "@/components/PricingTables/PricingTableOne";
 import PricingTableTwo from "@/components/PricingTables/PricingTableTwo";
@@ -15,4 +15,4 @@ const PricingTables: React.FC = () =&gt; {
   return (<defaultlayout><breadcrumb pagename="Pricing Table"><div classname="flex flex-col gap-5 md:gap-7 2xl:gap-10"><pricingtableone><pricingtabletwo></pricingtabletwo></pricingtableone></div></breadcrumb></defaultlayout>);
 };
 
-export default PricingTables;</body></html>
+export default PricingTables;

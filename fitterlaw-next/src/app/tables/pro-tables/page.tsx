@@ -1,4 +1,4 @@
-<html><head></head><body>import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
+import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -15,4 +15,4 @@ const ProTablesPage = () =&gt; {
   return (<defaultlayout><breadcrumb pagename="Pro Tables"><div classname="flex flex-col gap-10"><tablefive><tablesix></tablesix></tablefive></div></breadcrumb></defaultlayout>);
 };
 
-export default ProTablesPage;</body></html>
+export default ProTablesPage;

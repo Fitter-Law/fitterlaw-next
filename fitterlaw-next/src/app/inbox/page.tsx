@@ -1,4 +1,4 @@
-<html><head></head><body>import Inbox from "@/components/Inbox";
+import Inbox from "@/components/Inbox";
 
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -14,4 +14,4 @@ const InboxPage: React.FC = () =&gt; {
   return (<defaultlayout><inbox></inbox></defaultlayout>);
 };
 
-export default InboxPage;</body></html>
+export default InboxPage;

@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import ProFormElements from "@/components/ProFormElements";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -13,4 +13,4 @@ const ProFormElementsPage = () =&gt; {
   return (<defaultlayout><proformelements></proformelements></defaultlayout>);
 };
 
-export default ProFormElementsPage;</body></html>
+export default ProFormElementsPage;

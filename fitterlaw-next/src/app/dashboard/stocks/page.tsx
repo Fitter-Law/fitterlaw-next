@@ -1,4 +1,4 @@
-<html><head></head><body>import Stocks from "@/components/Dashboard/Stocks";
+import Stocks from "@/components/Dashboard/Stocks";
 
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -13,4 +13,4 @@ const StocksPage = () =&gt; {
   return (<defaultlayout><stocks></stocks></defaultlayout>);
 };
 
-export default StocksPage;</body></html>
+export default StocksPage;

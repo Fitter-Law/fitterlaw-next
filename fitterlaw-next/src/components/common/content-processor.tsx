@@ -1,4 +1,4 @@
-<html><head></head><body>import React from 'react';
+import React from 'react';
 import DOMPurify from 'isomorphic-dompurify';
 
 interface ContentProcessorProps {
@@ -15,4 +15,4 @@ const ContentProcessor = ({ content }: ContentProcessorProps) =&gt; {
   return (<div classname="wp-content" dangerouslysetinnerhtml="{{" __html:="" cleancontent="" }}="">);
 };
 
-export default ContentProcessor;</div></body></html>
+export default ContentProcessor;</div>

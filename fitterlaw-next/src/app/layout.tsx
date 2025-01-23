@@ -24,4 +24,4 @@ export default function RootLayout({
   }, []);
 
   return (<div classname="dark:bg-boxdark-2 dark:text-bodydark">{loading ?<loader>: children}</loader></div>);
-}</boolean></body></html>
+}</boolean>

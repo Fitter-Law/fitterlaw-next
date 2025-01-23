@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 import { Metadata } from "next";
@@ -15,4 +15,4 @@ const BreadcrumbsPage = () =&gt; {
   return (<defaultlayout><breadcrumbs></breadcrumbs></defaultlayout>);
 };
 
-export default BreadcrumbsPage;</body></html>
+export default BreadcrumbsPage;

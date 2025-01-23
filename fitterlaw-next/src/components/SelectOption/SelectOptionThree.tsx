@@ -1,4 +1,4 @@
-<html><head></head><body>"use client";
+"use client";
 import React, { useState } from "react";
 
 interface Language {
@@ -37,9 +37,7 @@ const SelectOptionThree: React.FC = () =&gt; {
     });
   };
 
-  return (<div classname="mb-6"><label classname="mb-4.5 block text-sm font-medium text-black dark:text-white">Which languages &amp; frameworks you know?</label><div classname="flex flex-col gap-2.5">{languages.map((language) =&gt; (<checkboxinputgroup key="{language.id}" id="{language.id}" ischecked="{selectedLanguages.includes(language.id)}" onchange="{()" =="">handleLanguageChange(language.id)}
-          /&gt;
-        ))}</checkboxinputgroup></div></div>);
+  return (<div classname="mb-6"><label classname="mb-4.5 block text-sm font-medium text-black dark:text-white">Which languages &amp; frameworks you know?</label><div classname="flex flex-col gap-2.5">{languages.map((language) =&gt; (<checkboxinputgroup key="{language.id}" id="{language.id}" ischecked="{selectedLanguages.includes(language.id)}" onchange="{()" =="">handleLanguageChange(language.id)} /&gt; ))}</checkboxinputgroup></div></div>);
 };
 
-export default SelectOptionThree;</string[]></body></html>
+export default SelectOptionThree;</string[]>

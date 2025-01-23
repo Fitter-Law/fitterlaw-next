@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import { Metadata } from "next";
 import TaskList from "@/components/Tasks/ListTasks";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -12,4 +12,4 @@ const TaskListPage = () =&gt; {
   return (<defaultlayout><tasklist></tasklist></defaultlayout>);
 };
 
-export default TaskListPage;</body></html>
+export default TaskListPage;

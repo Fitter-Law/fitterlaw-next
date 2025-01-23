@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Accordion from "@/components/Accordions";
 
 import { Metadata } from "next";
@@ -15,4 +15,4 @@ const AccordionPage = () =&gt; {
   return (<defaultlayout><accordion></accordion></defaultlayout>);
 };
 
-export default AccordionPage;</body></html>
+export default AccordionPage;

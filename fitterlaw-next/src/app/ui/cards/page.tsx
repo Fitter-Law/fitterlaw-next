@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import CardsItemOne from "@/components/cards/CardsItemOne";
 import CardsItemTwo from "@/components/cards/CardsItemTwo";
@@ -90,4 +90,4 @@ const Cards: React.FC = () =&gt; {
   return (<defaultlayout><breadcrumb pagename="Cards"><div classname="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">{cardsItemOneData.map((card, key) =&gt; (<cardsitemone key="{key}" imagesrc="{card.imageSrc}" name="{card.name}" role="{card.role}" cardimagesrc="{card.cardImageSrc}" cardtitle="{card.cardTitle}" cardcontent="{card.cardContent}">))}</cardsitemone></div><h2 classname="mb-7.5 mt-10 text-title-md2 font-semibold text-black dark:text-white">Cards</h2><div classname="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">{cardsItemTwoData.map((card, key) =&gt; (<cardsitemtwo key="{key}" cardimagesrc="{card.cardImageSrc}" cardtitle="{card.cardTitle}" cardcontent="{card.cardContent}">))}</cardsitemtwo></div><h2 classname="mb-7.5 mt-10 text-title-md2 font-semibold text-black dark:text-white">Cards</h2><div classname="grid grid-cols-1 gap-7.5 sm:grid-cols-2 xl:grid-cols-3">{cardsItemThreeData.map((card, key) =&gt; (<cardsitemthree key="{key}" cardtitle="{card.cardTitle}" cardcontent="{card.cardContent}">))}</cardsitemthree></div></breadcrumb></defaultlayout>);
 };
 
-export default Cards;</body></html>
+export default Cards;

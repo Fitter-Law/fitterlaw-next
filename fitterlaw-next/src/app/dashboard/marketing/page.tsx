@@ -1,4 +1,4 @@
-<html><head></head><body>import Marketing from "@/components/Dashboard/Marketing";
+import Marketing from "@/components/Dashboard/Marketing";
 
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -14,4 +14,4 @@ const MarketingPage = () =&gt; {
   return (<defaultlayout><marketing></marketing></defaultlayout>);
 };
 
-export default MarketingPage;</body></html>
+export default MarketingPage;

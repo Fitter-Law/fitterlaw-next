@@ -1,4 +1,4 @@
-<html><head></head><body>import React from "react";
+import React from "react";
 import FileManager from "@/components/FileManager";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -14,4 +14,4 @@ const FileManagerPage = () =&gt; {
   return (<defaultlayout><filemanager></filemanager></defaultlayout>);
 };
 
-export default FileManagerPage;</body></html>
+export default FileManagerPage;
