@@ -2,7 +2,7 @@
 
 export default function privacy_policyPage() {
   return (
-    <Layout>
+    <DefaultLayout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=3; post_author=1; post_date=2019-05-26 21:07:10; post_date_gmt=2019-05-27 02:07:10; post_content=<!-- wp:heading -->
@@ -84,6 +84,6 @@ export default function privacy_policyPage() {
 <p>[cookie_audit style="classic" columns="cookie,description" heading="The below list details the cookies used in our website."]</p>
 <!-- /wp:paragraph --><!-- wp:block {"ref":216} /-->; post_title=Privacy Policy; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=privacy-policy; to_ping=; pinged=; post_modified=2023-08-01 21:21:03; post_modified_gmt=2023-08-02 02:21:03; post_content_filtered=; post_parent=211; guid=http://fitterlaw.com/?page_id=3; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }

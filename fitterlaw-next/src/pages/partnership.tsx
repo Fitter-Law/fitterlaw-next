@@ -2,7 +2,7 @@
 
 export default function partnershipPage() {
   return (
-    <Layout>
+    <DefaultLayout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Partnership</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=1736; post_author=1; post_date=2020-12-21 15:25:31; post_date_gmt=2020-12-21 21:25:31; post_content=<h2>WHY PARTNER WITH FITTER LAW</h2>
@@ -66,6 +66,6 @@ export default function partnershipPage() {
 
 <label for="ff_11_Partnering_Ideas">Tell us how you see yourself partnering with us:</label> <textarea name="Partnering_Ideas" id="ff_11_Partnering_Ideas" rows="3" cols="2" data-name="Partnering_Ideas"></textarea><button type="submit">Submit Form</button></form>; post_title=Partnership; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=partnership; to_ping=; pinged=; post_modified=2022-10-07 02:11:24; post_modified_gmt=2022-10-07 07:11:24; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=1736; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }

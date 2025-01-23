@@ -2,7 +2,7 @@
 
 export default function frequently_asked_questionsPage() {
   return (
-    <Layout>
+    <DefaultLayout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Frequently Asked Questions</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=3025; post_author=1; post_date=2021-04-08 19:53:55; post_date_gmt=2021-04-09 00:53:55; post_content=<h4>FAQ</h4>		
@@ -36,6 +36,6 @@ export default function frequently_asked_questionsPage() {
 						Apply Now!
 					</a>; post_title=Frequently Asked Questions; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=frequently-asked-questions; to_ping=; pinged=; post_modified=2021-04-08 20:46:32; post_modified_gmt=2021-04-09 01:46:32; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=3025; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }

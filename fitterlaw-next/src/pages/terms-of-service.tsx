@@ -2,7 +2,7 @@
 
 export default function terms_of_servicePage() {
   return (
-    <Layout>
+    <DefaultLayout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Terms of Service</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=211; post_author=1; post_date=2019-06-24 11:16:06; post_date_gmt=2019-06-24 16:16:06; post_content=<p>Â </p>
@@ -288,6 +288,6 @@ export default function terms_of_servicePage() {
 <p>We operate under Illinois law and the Rules of Professional Conduct of the Supreme Court of Illinois.</p>
 <p>No historical case is a guarantee of future results.</p><pre><a style="color: #ff6600;" href="#top">BACK TO TOP â†‘</a></pre>; post_title=Terms of Service; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=terms-of-service; to_ping=; pinged=; post_modified=2022-10-27 21:44:35; post_modified_gmt=2022-10-28 02:44:35; post_content_filtered=; post_parent=11; guid=https://fitterlaw.com/?page_id=211; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }

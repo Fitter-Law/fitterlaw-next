@@ -2,7 +2,7 @@
 
 export default function business_legal_risk_assessmentPage() {
   return (
-    <Layout>
+    <DefaultLayout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Business Legal Risk Assessment</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=13698; post_author=1; post_date=2025-01-08 02:17:19; post_date_gmt=2025-01-08 08:17:19; post_content=<h2>Risk Assessment Questionnaire</h2>				
@@ -24,6 +24,6 @@ export default function business_legal_risk_assessmentPage() {
 						Request Appointment					</a>
 				Need Help?; post_title=Business Legal Risk Assessment; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=business-legal-risk-assessment; to_ping=; pinged=; post_modified=2025-01-08 11:04:12; post_modified_gmt=2025-01-08 17:04:12; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=13698; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }

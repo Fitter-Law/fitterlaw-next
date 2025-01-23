@@ -2,7 +2,7 @@
 
 export default function glossary_of_legal_termsPage() {
   return (
-    <Layout>
+    <DefaultLayout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Glossary of Legal Terms</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=1061; post_author=1; post_date=2020-11-03 07:30:04; post_date_gmt=2020-11-03 13:30:04; post_content=<h2>A</h2>
@@ -509,6 +509,6 @@ A written court order directing a person to take, or refrain from taking, a cert
 <h3><strong>Writ of certiorari:</strong></h3>
 An order issued by the U.S. Supreme Court directing the lower court to transmit records for a case which it will hear on appeal.; post_title=Glossary of Legal Terms; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=glossary-of-legal-terms; to_ping=; pinged=; post_modified=2020-11-03 07:33:07; post_modified_gmt=2020-11-03 13:33:07; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=1061; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }

@@ -2,7 +2,7 @@
 
 export default function illinois_business_service_formsPage() {
   return (
-    <Layout>
+    <DefaultLayout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Illinois Business Service Forms</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=1266; post_author=1; post_date=2020-11-15 13:28:03; post_date_gmt=2020-11-15 19:28:03; post_content=<h2>Illinois Business Service Forms:</h2>
@@ -32,6 +32,6 @@ Fitter Law does not provide any warranties with these forms.&nbsp; This is merel
 <h3>
 					Uniform Commercial Code</h3>; post_title=Illinois Business Service Forms; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=illinois-business-service-forms; to_ping=; pinged=; post_modified=2022-10-07 02:12:49; post_modified_gmt=2022-10-07 07:12:49; post_content_filtered=; post_parent=2147; guid=https://fitterlaw.com/?page_id=1266; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }

@@ -2,7 +2,7 @@
 
 export default function attorney_jawad_fitterPage() {
   return (
-    <Layout>
+    <DefaultLayout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Jawad I. Fitter, Attorney / Founder</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=21; post_author=1; post_date=2019-05-26 22:44:38; post_date_gmt=2019-05-26 22:44:38; post_content=<h1>Jawad I. Fitter</h1>		
@@ -61,6 +61,6 @@ export default function attorney_jawad_fitterPage() {
 <li>Serviced Fortune 500 clients throughout his career</li>
 </ul>; post_title=Jawad I. Fitter, Attorney / Founder; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=attorney-jawad-fitter; to_ping=; pinged=; post_modified=2024-11-11 08:59:38; post_modified_gmt=2024-11-11 14:59:38; post_content_filtered=; post_parent=11; guid=https://fitterlaw.com/?page_id=21; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }

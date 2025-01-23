@@ -2,7 +2,7 @@
 
 export default function tax_audit_defensePage() {
   return (
-    <Layout>
+    <DefaultLayout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Tax Audit Defense</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=324; post_author=1; post_date=2019-07-12 21:39:25; post_date_gmt=2019-07-13 02:39:25; post_content=<!-- wp:paragraph {"align":"justify"} -->
@@ -23,6 +23,6 @@ export default function tax_audit_defensePage() {
 
 <!-- wp:block {"ref":216} /-->; post_title=Tax Audit Defense; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=tax-audit-defense; to_ping=; pinged=; post_modified=2021-09-28 16:11:15; post_modified_gmt=2021-09-28 21:11:15; post_content_filtered=; post_parent=13; guid=https://fitterlaw.com/?page_id=324; menu_order=3; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }
