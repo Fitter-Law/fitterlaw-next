@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import Breadcrumb from '@/components/Breadcrumbs/Breadcrumb';
 
 interface PageLayoutProps {
-  children: string;
+  children: ReactNode;
   title: string;
-  subtitle: string;
+  subtitle?: string; // Optional if not always present
 }
 
 const PageLayout = ({ children, title, subtitle }) => {
