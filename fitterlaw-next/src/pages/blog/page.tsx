@@ -1552,7 +1552,6 @@ export default function BlogIndex() {
     },
     {
       title: "<h2>Understanding the Legal Definition of Default: A Guide for Business Owners</h2>
-
 <p>Learn the ins and outs of default and its implications on your financial stability and obligations as a business owner. Discover real-life examples of default and the importance of understanding its legal definition. Don't let default damage your credit rating, strain business relationships, or harm your reputation. Gain the knowledge you need to navigate financial obligations and make informed decisions for long-term success.</p>",
       slug: "default",
       date: "2022-02-12",
