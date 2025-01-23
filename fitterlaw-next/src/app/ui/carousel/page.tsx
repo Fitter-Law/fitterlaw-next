@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const CarouselPage = () =&gt; {
-  return (<defaultlayout><carousel></carousel></defaultlayout>);
+  return (<DefaultLayout><carousel></carousel></DefaultLayout>);
 };
 
 export default CarouselPage;

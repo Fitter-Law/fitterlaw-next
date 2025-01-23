@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const FileManagerPage = () =&gt; {
-  return (<defaultlayout><filemanager></filemanager></defaultlayout>);
+  return (<DefaultLayout><filemanager></filemanager></DefaultLayout>);
 };
 
 export default FileManagerPage;

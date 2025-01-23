@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const StocksPage = () =&gt; {
-  return (<defaultlayout><stocks></stocks></defaultlayout>);
+  return (<DefaultLayout><stocks></stocks></DefaultLayout>);
 };
 
 export default StocksPage;

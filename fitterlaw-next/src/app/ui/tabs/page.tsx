@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const TabsPage = () =&gt; {
-  return (<defaultlayout><tabs></tabs></defaultlayout>);
+  return (<DefaultLayout><tabs></tabs></DefaultLayout>);
 };
 
 export default TabsPage;

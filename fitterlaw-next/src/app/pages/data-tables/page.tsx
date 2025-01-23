@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const DataTablesPage = () =&gt; {
-  return (<defaultlayout><datatables></datatables></defaultlayout>);
+  return (<DefaultLayout><datatables></datatables></DefaultLayout>);
 };
 
 export default DataTablesPage;

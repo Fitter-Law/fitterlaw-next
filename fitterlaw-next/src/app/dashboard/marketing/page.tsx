@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const MarketingPage = () =&gt; {
-  return (<defaultlayout><marketing></marketing></defaultlayout>);
+  return (<DefaultLayout><marketing></marketing></DefaultLayout>);
 };
 
 export default MarketingPage;

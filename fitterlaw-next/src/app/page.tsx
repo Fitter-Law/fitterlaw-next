@@ -9,5 +9,5 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return (&lt;&gt;<defaultlayout><ecommerce></ecommerce></defaultlayout>);
+  return (&lt;&gt;<DefaultLayout><ecommerce></ecommerce></DefaultLayout>);
 }

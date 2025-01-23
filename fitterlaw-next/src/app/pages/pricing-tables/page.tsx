@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const PricingTables: React.FC = () =&gt; {
-  return (<defaultlayout><breadcrumb pagename="Pricing Table"><div classname="flex flex-col gap-5 md:gap-7 2xl:gap-10"><pricingtableone><pricingtabletwo></pricingtabletwo></pricingtableone></div></breadcrumb></defaultlayout>);
+  return (<DefaultLayout><breadcrumb pagename="Pricing Table"><div classname="flex flex-col gap-5 md:gap-7 2xl:gap-10"><pricingtableone><pricingtabletwo></pricingtabletwo></pricingtableone></div></breadcrumb></DefaultLayout>);
 };
 
 export default PricingTables;

@@ -1,5 +1,5 @@
 import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function premium_monthlyPage() {
- return (<defaultlayout><div classname="container mx-auto px-4 py-8"><h1 classname="text-3xl font-bold mb-4">premium monthly</h1><div dangerouslysetinnerhtml="{{" __html:="" `thank="" you="" for="" your="" purchase.="" this="" page="" will="" be="" updated="" soon="" with="" updates="" on="" order.`="" }}=""></div>);
-}</div></defaultlayout>
+ return (<DefaultLayout><div classname="container mx-auto px-4 py-8"><h1 classname="text-3xl font-bold mb-4">premium monthly</h1><div dangerouslysetinnerhtml="{{" __html:="" `thank="" you="" for="" your="" purchase.="" this="" page="" will="" be="" updated="" soon="" with="" updates="" on="" order.`="" }}=""></div>);
+}</div></DefaultLayout>

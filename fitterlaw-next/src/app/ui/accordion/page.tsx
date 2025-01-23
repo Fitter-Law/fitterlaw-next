@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const AccordionPage = () =&gt; {
-  return (<defaultlayout><accordion></accordion></defaultlayout>);
+  return (<DefaultLayout><accordion></accordion></DefaultLayout>);
 };
 
 export default AccordionPage;

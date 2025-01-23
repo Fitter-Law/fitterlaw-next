@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const TaskKanbanPage = () =&gt; {
-  return (<defaultlayout><taskkanban></taskkanban></defaultlayout>);
+  return (<DefaultLayout><taskkanban></taskkanban></DefaultLayout>);
 };
 
 export default TaskKanbanPage;

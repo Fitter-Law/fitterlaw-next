@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const CrmPage = () =&gt; {
-  return (<defaultlayout><crm></crm></defaultlayout>);
+  return (<DefaultLayout><crm></crm></DefaultLayout>);
 };
 
 export default CrmPage;
