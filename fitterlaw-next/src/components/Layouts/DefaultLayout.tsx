@@ -1,7 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import blog-layout from "blog-layout";
-import page-layout from "page-layout";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 
