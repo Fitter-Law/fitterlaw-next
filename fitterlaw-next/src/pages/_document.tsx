@@ -1,4 +1,4 @@
-import DefaultLayout from '@/components/layouts/DefaultLayout';
+import Layout from '@/components/layouts/page-layout';
 
 import { Html, Head, Main, NextScript } from "next/document";
 

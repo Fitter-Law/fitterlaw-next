@@ -1,8 +1,8 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+﻿import Layout from '@/components/layouts/page-layout';
 
 export default function aboutPage() {
   return (
-    <DefaultLayout>
+    <Layout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">About Us</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=11; post_author=1; post_date=2019-05-26 22:38:14; post_date_gmt=2019-05-26 22:38:14; post_content=<h2>ABOUT FITTER LAW</h2>		
@@ -28,6 +28,6 @@ export default function aboutPage() {
 															<img width="300" height="81" src="https://fitterlaw.com/wp-content/uploads/2021/01/KENT_horiz_lockup-300x81.jpg" alt="" loading="lazy" srcset="https://fitterlaw.com/wp-content/uploads/2021/01/KENT_horiz_lockup-300x81.jpg 300w, https://fitterlaw.com/wp-content/uploads/2021/01/KENT_horiz_lockup-768x208.jpg 768w, https://fitterlaw.com/wp-content/uploads/2021/01/KENT_horiz_lockup.jpg 863w" sizes="(max-width: 300px) 100vw, 300px" />															
 		<p>The Fitter Law Subscription Plan was started in the <a href="https://www.kentlaw.iit.edu/alumni/solo-and-small-practice-incubator/2020-21-program/" target="_blank" rel="noopener">Chicago-Kent College of Law's Solo and Small Practice Incubator</a> (SSPI). The Fitter Law Subscription Plan is the solution for startups and small businesses to help solve the constantly growing legal concerns of startups and small businesses.</p><p>SSPI is a program designed to offer a select group of entrepreneurial-minded IIT Chicago-Kent graduates with valuable experience and ongoing training to help build their professional firm legal practices. SSPI is intended to accelerate the successful development of lawyers in an "incubator" environment.</p>; post_title=About Us; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=about; to_ping=; pinged=; post_modified=2023-08-01 23:06:48; post_modified_gmt=2023-08-02 04:06:48; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=11; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </DefaultLayout>
+    </Layout>
   );
 }

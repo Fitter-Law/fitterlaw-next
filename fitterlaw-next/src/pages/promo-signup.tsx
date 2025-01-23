@@ -1,8 +1,8 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+﻿import Layout from '@/components/layouts/page-layout';
 
 export default function promo_signupPage() {
   return (
-    <DefaultLayout>
+    <Layout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Promo Signup</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=1854; post_author=1; post_date=2020-12-28 18:34:28; post_date_gmt=2020-12-29 00:34:28; post_content=<img width="744" height="744" src="https://fitterlaw.com/wp-content/uploads/Fitter-Law-Circle-Logo-01-1024x1024.png" alt="" loading="lazy" srcset="https://i0.wp.com/fitterlaw.com/wp-content/uploads/Fitter-Law-Circle-Logo-01-e1632857624897.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/fitterlaw.com/wp-content/uploads/Fitter-Law-Circle-Logo-01-e1632857624897.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/fitterlaw.com/wp-content/uploads/Fitter-Law-Circle-Logo-01-e1632857624897.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/fitterlaw.com/wp-content/uploads/Fitter-Law-Circle-Logo-01-e1632857624897.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/fitterlaw.com/wp-content/uploads/Fitter-Law-Circle-Logo-01-e1632857624897.png?resize=1536%2C1536&amp;ssl=1 1536w, https://i0.wp.com/fitterlaw.com/wp-content/uploads/Fitter-Law-Circle-Logo-01-e1632857624897.png?resize=2048%2C2048&amp;ssl=1 2048w, https://i0.wp.com/fitterlaw.com/wp-content/uploads/Fitter-Law-Circle-Logo-01-e1632857624897.png?resize=80%2C80&amp;ssl=1 80w, https://i0.wp.com/fitterlaw.com/wp-content/uploads/Fitter-Law-Circle-Logo-01-e1632857624897.png?resize=1170%2C1170&amp;ssl=1 1170w, https://i0.wp.com/fitterlaw.com/wp-content/uploads/Fitter-Law-Circle-Logo-01-e1632857624897.png?w=500&amp;ssl=1 500w" sizes="(max-width: 744px) 100vw, 744px" />														
@@ -177,6 +177,6 @@ Chicago, IL 60606</a></h2>
 												<img width="181" height="150" src="https://fitterlaw.com/wp-content/uploads/2021/02/Jawad-Fitter-Rising-Star-SuperLawyers-e1613613530116.webp" alt="Super Lawyers Rising Star Logo" loading="lazy" />														
 			<h2>Fitter Law, LLC Â© 2020 <p><br>**Attorney Advertisement**</h2>; post_title=Promo Signup; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=promo-signup; to_ping=; pinged=; post_modified=2024-11-11 08:59:35; post_modified_gmt=2024-11-11 14:59:35; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=1854; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </DefaultLayout>
+    </Layout>
   );
 }

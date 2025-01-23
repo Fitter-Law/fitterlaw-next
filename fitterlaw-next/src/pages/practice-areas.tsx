@@ -1,8 +1,8 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+﻿import Layout from '@/components/layouts/page-layout';
 
 export default function practice_areasPage() {
   return (
-    <DefaultLayout>
+    <Layout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Practice Areas</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=13; post_author=1; post_date=2019-05-26 22:38:50; post_date_gmt=2019-05-27 03:38:50; post_content=<h1>Fitter Law's Practice Areas</h1>		
@@ -27,6 +27,6 @@ export default function practice_areasPage() {
 							<img width="744" height="494" src="https://fitterlaw.com/wp-content/uploads/Litigation-768x510.png" alt="Fitter Law Litigation Services" loading="lazy" srcset="https://i2.wp.com/fitterlaw.com/wp-content/uploads/Litigation.png?resize=768%2C510&amp;ssl=1 768w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/Litigation.png?resize=300%2C199&amp;ssl=1 300w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/Litigation.png?w=900&amp;ssl=1 900w" sizes="(max-width: 744px) 100vw, 744px" />								</a>
 		<h3><a href="https://fitterlaw.com/practice-areas/litigation/"><strong>Litigation</strong></a></h3><p>Commercial Litigation, ERISA, Insurance, Labor &amp; Employment, Mergers &amp; Acquisition, Real Estate, Securities, Trusts &amp; Estates, Construction, Arbitration, Mediation, and more</p>; post_title=Practice Areas; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=practice-areas; to_ping=; pinged=; post_modified=2024-09-30 02:09:51; post_modified_gmt=2024-09-30 07:09:51; post_content_filtered=; post_parent=11; guid=https://fitterlaw.com/?page_id=13; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </DefaultLayout>
+    </Layout>
   );
 }

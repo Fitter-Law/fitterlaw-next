@@ -1,8 +1,8 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+﻿import Layout from '@/components/layouts/page-layout';
 
 export default function ck_incubatorPage() {
   return (
-    <DefaultLayout>
+    <Layout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">CK Incubator</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=2209; post_author=1; post_date=2021-01-08 21:08:39; post_date_gmt=2021-01-09 03:08:39; post_content=<img width="300" height="300" src="https://fitterlaw.com/wp-content/uploads/2020/11/Fitter-Law-Circle-Logo-01-300x300.png" alt="Fitter Law, LLC" loading="lazy" srcset="https://i2.wp.com/fitterlaw.com/wp-content/uploads/2020/11/Fitter-Law-Circle-Logo-01.png?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2020/11/Fitter-Law-Circle-Logo-01.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2020/11/Fitter-Law-Circle-Logo-01.png?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2020/11/Fitter-Law-Circle-Logo-01.png?resize=768%2C768&amp;ssl=1 768w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2020/11/Fitter-Law-Circle-Logo-01.png?resize=1536%2C1536&amp;ssl=1 1536w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2020/11/Fitter-Law-Circle-Logo-01.png?resize=2048%2C2048&amp;ssl=1 2048w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2020/11/Fitter-Law-Circle-Logo-01.png?resize=80%2C80&amp;ssl=1 80w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2020/11/Fitter-Law-Circle-Logo-01.png?resize=1170%2C1170&amp;ssl=1 1170w, https://i2.wp.com/fitterlaw.com/wp-content/uploads/2020/11/Fitter-Law-Circle-Logo-01.png?w=2232&amp;ssl=1 2232w" sizes="(max-width: 300px) 100vw, 300px">
@@ -112,6 +112,6 @@ Next
 
 Fitter Law, LLC - Attorney Advertising; post_title=CK Incubator; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=ck-incubator; to_ping=; pinged=; post_modified=2022-10-07 02:07:12; post_modified_gmt=2022-10-07 07:07:12; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=2209; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </DefaultLayout>
+    </Layout>
   );
 }

@@ -1,8 +1,8 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+﻿import Layout from '@/components/layouts/page-layout';
 
 export default function unlimited_legal_subscription_planPage() {
   return (
-    <DefaultLayout>
+    <Layout>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Unlimited Legal Subscription Plan</h1>
         <div dangerouslySetInnerHTML={{ __html: $(@{ID=7; post_author=1; post_date=2019-05-26 21:54:01; post_date_gmt=2019-05-27 02:54:01; post_content=<h3>The Law Firm That Answers</h3>
@@ -105,6 +105,6 @@ We will help you navigate your business and legal needs.
 Start Here
 </a>; post_title=Unlimited Legal Subscription Plan; post_excerpt=; post_status=publish; comment_status=closed; ping_status=closed; post_password=; post_name=unlimited-legal-subscription-plan; to_ping=; pinged=; post_modified=2021-01-14 20:44:42; post_modified_gmt=2021-01-15 02:44:42; post_content_filtered=; post_parent=0; guid=https://fitterlaw.com/?page_id=7; menu_order=0; post_type=page; post_mime_type=; comment_count=0}.post_content -replace "'", "\'") }} />
       </div>
-    </DefaultLayout>
+    </Layout>
   );
 }
