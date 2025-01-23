@@ -3,7 +3,7 @@
   "version": "1.3.2",
   "private": true,
   "scripts": {
-    "detect-errors": "ts-node src/detect-tsx-errors.ts"
+    "build": "next build",
   },
   "dependencies": {
     "apexcharts": "^3.45.2",
