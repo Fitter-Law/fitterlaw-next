@@ -1,4 +1,4 @@
-import Inbox from "@/components/Inbox";
+<html><head></head><body>import Inbox from "@/components/Inbox";
 
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -10,12 +10,8 @@ export const metadata: Metadata = {
     "This is Next.js Inbox page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
-const InboxPage: React.FC = () => {
-  return (
-    <DefaultLayout>
-      <Inbox />
-    </DefaultLayout>
-  );
+const InboxPage: React.FC = () =&gt; {
+  return (<defaultlayout><inbox></inbox></defaultlayout>);
 };
 
-export default InboxPage;
+export default InboxPage;</body></html>

@@ -1,20 +1,12 @@
-"use client";
+<html><head></head><body>"use client";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import DataTableOne from "@/components/DataTables/DataTableOne";
 import DataTableTwo from "@/components/DataTables/DataTableTwo";
 import React from "react";
 
-const DataTables: React.FC = () => {
+const DataTables: React.FC = () =&gt; {
   return (
-    <>
-      <Breadcrumb pageName="Data Tables" />
-
-      <div className="flex flex-col gap-5 md:gap-7 2xl:gap-10">
-        <DataTableOne />
-        <DataTableTwo />
-      </div>
-    </>
-  );
+    &lt;&gt;<breadcrumb pagename="Data Tables"><div classname="flex flex-col gap-5 md:gap-7 2xl:gap-10"><datatableone><datatabletwo></datatabletwo></datatableone></div>);
 };
 
-export default DataTables;
+export default DataTables;</breadcrumb></body></html>

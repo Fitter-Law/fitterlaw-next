@@ -1,14 +1,5 @@
-import DefaultLayout from '@/components/Layouts/DefaultLayout';
+<html><head></head><body>import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
 export default function working_on_filePage() {
- return (
-   <DefaultLayout>
-     <div className="container mx-auto px-4 py-8">
-       <h1 className="text-3xl font-bold mb-4">working on file</h1>
-       <div dangerouslySetInnerHTML={{ __html: `<!-- wp:shortcode -->
-[dlm_downloading_page] 
-<!-- /wp:shortcode -->[download_page]` }} />
-     </div>
-   </DefaultLayout>
- );
-}
+ return (<defaultlayout><div classname="container mx-auto px-4 py-8"><h1 classname="text-3xl font-bold mb-4">working on file</h1><div dangerouslysetinnerhtml="{{" __html:="" `<!--="" wp:shortcode="" --="">[dlm_downloading_page][download_page]` }} /&gt;</div>);
+}</div></defaultlayout></body></html>

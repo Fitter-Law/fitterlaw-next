@@ -1,21 +1,12 @@
-"use client";
+<html><head></head><body>"use client";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import DropdownsTwo from "@/components/Dropdowns/DropdownsTwo";
 import DropdownsOne from "@/components/Dropdowns/DropdownsOne";
 import DropdownsThree from "@/components/Dropdowns/DropdownsThree";
 
-const Dropdowns: React.FC = () => {
+const Dropdowns: React.FC = () =&gt; {
   return (
-    <>
-      <Breadcrumb pageName="Dropdowns" />
-
-      <div className="flex flex-col gap-7.5">
-        <DropdownsOne />
-        <DropdownsTwo />
-        <DropdownsThree />
-      </div>
-    </>
-  );
+    &lt;&gt;<breadcrumb pagename="Dropdowns"><div classname="flex flex-col gap-7.5"><dropdownsone><dropdownstwo><dropdownsthree></dropdownsthree></dropdownstwo></dropdownsone></div>);
 };
 
-export default Dropdowns;
+export default Dropdowns;</breadcrumb></body></html>

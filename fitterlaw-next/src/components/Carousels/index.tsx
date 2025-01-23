@@ -1,21 +1,12 @@
-"use client";
+<html><head></head><body>"use client";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import CarouselTwo from "@/components/Carousels/CarouselTwo";
 import CarouselOne from "@/components/Carousels/CarouselOne";
 import CarouselThree from "@/components/Carousels/CarouselThree";
 
-const Carousel: React.FC = () => {
+const Carousel: React.FC = () =&gt; {
   return (
-    <>
-      <Breadcrumb pageName="Carousel" />
-
-      <div className="flex flex-col gap-7.5">
-        <CarouselOne />
-        <CarouselTwo />
-        <CarouselThree />
-      </div>
-    </>
-  );
+    &lt;&gt;<breadcrumb pagename="Carousel"><div classname="flex flex-col gap-7.5"><carouselone><carouseltwo><carouselthree></carouselthree></carouseltwo></carouselone></div>);
 };
 
-export default Carousel;
+export default Carousel;</breadcrumb></body></html>

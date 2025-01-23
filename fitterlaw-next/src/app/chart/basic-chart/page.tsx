@@ -1,4 +1,4 @@
-import BasicChart from "@/components/Charts/BasicChart";
+<html><head></head><body>import BasicChart from "@/components/Charts/BasicChart";
 import { Metadata } from "next";
 import FormElements from "@/components/FormElements";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -11,12 +11,8 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const BasicChartPage: React.FC = () => {
-  return (
-    <DefaultLayout>
-      <BasicChart />
-    </DefaultLayout>
-  );
+const BasicChartPage: React.FC = () =&gt; {
+  return (<defaultlayout><basicchart></basicchart></defaultlayout>);
 };
 
-export default BasicChartPage;
+export default BasicChartPage;</body></html>

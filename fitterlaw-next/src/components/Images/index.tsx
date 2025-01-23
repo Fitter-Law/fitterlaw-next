@@ -1,19 +1,11 @@
-"use client";
+<html><head></head><body>"use client";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import ImagesTwo from "@/components/Images/ImagesTwo";
 import ImagesOne from "@/components/Images/ImagesOne";
 
-const Images: React.FC = () => {
+const Images: React.FC = () =&gt; {
   return (
-    <>
-      <Breadcrumb pageName="Images" />
-
-      <div className="flex flex-col gap-7.5">
-        <ImagesOne />
-        <ImagesTwo />
-      </div>
-    </>
-  );
+    &lt;&gt;<breadcrumb pagename="Images"><div classname="flex flex-col gap-7.5"><imagesone><imagestwo></imagestwo></imagesone></div>);
 };
 
-export default Images;
+export default Images;</breadcrumb></body></html>

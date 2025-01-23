@@ -1,4 +1,4 @@
-import { ApexOptions } from "apexcharts";
+<html><head></head><body>import { ApexOptions } from "apexcharts";
 import React, { useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
@@ -122,8 +122,8 @@ interface ChartOneState {
   }[];
 }
 
-const ChartOne: React.FC = () => {
-  const [state, setState] = useState<ChartOneState>({
+const ChartOne: React.FC = () =&gt; {
+  const [state, setState] = useState<chartonestate>({
     series: [
       {
         name: "Product One",
@@ -137,63 +137,14 @@ const ChartOne: React.FC = () => {
     ],
   });
 
-  const handleReset = () => {
-    setState((prevState) => ({
+  const handleReset = () =&gt; {
+    setState((prevState) =&gt; ({
       ...prevState,
     }));
   };
   handleReset;
 
-  return (
-    <div className="col-span-12 rounded-sm border border-stroke bg-white px-5 pb-5 pt-7.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:col-span-8">
-      <div className="flex flex-wrap items-start justify-between gap-3 sm:flex-nowrap">
-        <div className="flex w-full flex-wrap gap-3 sm:gap-5">
-          <div className="flex min-w-47.5">
-            <span className="mr-2 mt-1 flex h-4 w-full max-w-4 items-center justify-center rounded-full border border-primary">
-              <span className="block h-2.5 w-full max-w-2.5 rounded-full bg-primary"></span>
-            </span>
-            <div className="w-full">
-              <p className="font-semibold text-primary">Total Revenue</p>
-              <p className="text-sm font-medium">12.04.2022 - 12.05.2022</p>
-            </div>
-          </div>
-          <div className="flex min-w-47.5">
-            <span className="mr-2 mt-1 flex h-4 w-full max-w-4 items-center justify-center rounded-full border border-secondary">
-              <span className="block h-2.5 w-full max-w-2.5 rounded-full bg-secondary"></span>
-            </span>
-            <div className="w-full">
-              <p className="font-semibold text-secondary">Total Sales</p>
-              <p className="text-sm font-medium">12.04.2022 - 12.05.2022</p>
-            </div>
-          </div>
-        </div>
-        <div className="flex w-full max-w-45 justify-end">
-          <div className="inline-flex items-center rounded-md bg-whiter p-1.5 dark:bg-meta-4">
-            <button className="rounded bg-white px-3 py-1 text-xs font-medium text-black shadow-card hover:bg-white hover:shadow-card dark:bg-boxdark dark:text-white dark:hover:bg-boxdark">
-              Day
-            </button>
-            <button className="rounded px-3 py-1 text-xs font-medium text-black hover:bg-white hover:shadow-card dark:text-white dark:hover:bg-boxdark">
-              Week
-            </button>
-            <button className="rounded px-3 py-1 text-xs font-medium text-black hover:bg-white hover:shadow-card dark:text-white dark:hover:bg-boxdark">
-              Month
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div id="chartOne" className="-ml-5">
-          <ReactApexChart
-            options={options}
-            series={state.series}
-            type="area"
-            height={350}
-          />
-        </div>
-      </div>
-    </div>
-  );
+  return (<div classname="col-span-12 rounded-sm border border-stroke bg-white px-5 pb-5 pt-7.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:col-span-8"><div classname="flex flex-wrap items-start justify-between gap-3 sm:flex-nowrap"><div classname="flex w-full flex-wrap gap-3 sm:gap-5"><div classname="flex min-w-47.5"><span classname="mr-2 mt-1 flex h-4 w-full max-w-4 items-center justify-center rounded-full border border-primary"><span classname="block h-2.5 w-full max-w-2.5 rounded-full bg-primary"></span></span><div classname="w-full"><p classname="font-semibold text-primary">Total Revenue</p><p classname="text-sm font-medium">12.04.2022 - 12.05.2022</p></div></div><div classname="flex min-w-47.5"><span classname="mr-2 mt-1 flex h-4 w-full max-w-4 items-center justify-center rounded-full border border-secondary"><span classname="block h-2.5 w-full max-w-2.5 rounded-full bg-secondary"></span></span><div classname="w-full"><p classname="font-semibold text-secondary">Total Sales</p><p classname="text-sm font-medium">12.04.2022 - 12.05.2022</p></div></div></div><div classname="flex w-full max-w-45 justify-end"><div classname="inline-flex items-center rounded-md bg-whiter p-1.5 dark:bg-meta-4"><button classname="rounded bg-white px-3 py-1 text-xs font-medium text-black shadow-card hover:bg-white hover:shadow-card dark:bg-boxdark dark:text-white dark:hover:bg-boxdark">Day</button><button classname="rounded px-3 py-1 text-xs font-medium text-black hover:bg-white hover:shadow-card dark:text-white dark:hover:bg-boxdark">Week</button><button classname="rounded px-3 py-1 text-xs font-medium text-black hover:bg-white hover:shadow-card dark:text-white dark:hover:bg-boxdark">Month</button></div></div></div><div><div id="chartOne" classname="-ml-5"><reactapexchart options="{options}" series="{state.series}" type="area" height="{350}"></reactapexchart></div></div></div>);
 };
 
-export default ChartOne;
+export default ChartOne;</chartonestate></body></html>

@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import { Metadata } from "next";
 import TaskList from "@/components/Tasks/ListTasks";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -8,12 +8,8 @@ export const metadata: Metadata = {
   description:
     "This is Next.js List page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
-const TaskListPage = () => {
-  return (
-    <DefaultLayout>
-      <TaskList />
-    </DefaultLayout>
-  );
+const TaskListPage = () =&gt; {
+  return (<defaultlayout><tasklist></tasklist></defaultlayout>);
 };
 
-export default TaskListPage;
+export default TaskListPage;</body></html>

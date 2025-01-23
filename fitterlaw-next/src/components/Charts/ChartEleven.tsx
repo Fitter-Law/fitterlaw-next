@@ -1,4 +1,4 @@
-import { ApexOptions } from "apexcharts";
+<html><head></head><body>import { ApexOptions } from "apexcharts";
 import React, { useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
@@ -13,15 +13,15 @@ interface ChartElevenProps {
   returnRate: number;
 }
 
-const ChartEleven: React.FC<ChartElevenProps> = ({
+const ChartEleven: React.FC<chartelevenprops>= ({
   returnRate: returnRateValue,
-}) => {
-  const [state, setState] = useState<ChartElevenState>({
+}) =&gt; {
+  const [state, setState] = useState<chartelevenstate>({
     series: [
       {
         name: "New Sales",
         data:
-          returnRateValue >= 0
+          returnRateValue &gt;= 0
             ? [151, 252, 185, 201, 269, 191, 295, 187, 248, 370, 310, 350, 300]
             : [300, 350, 310, 370, 248, 187, 295, 191, 269, 201, 185, 252, 151],
       },
@@ -29,8 +29,8 @@ const ChartEleven: React.FC<ChartElevenProps> = ({
   });
 
   // Update the state
-  const updateState = () => {
-    setState((prevState) => ({
+  const updateState = () =&gt; {
+    setState((prevState) =&gt; ({
       ...prevState,
       // Update the desired properties
     }));
@@ -38,7 +38,7 @@ const ChartEleven: React.FC<ChartElevenProps> = ({
   updateState;
 
   const options: ApexOptions = {
-    colors: [returnRateValue >= 0 ? "#10B981" : "#FB5454"],
+    colors: [returnRateValue &gt;= 0 ? "#10B981" : "#FB5454"],
     chart: {
       fontFamily: "Satoshi, sans-serif",
       height: 70,
@@ -107,18 +107,7 @@ const ChartEleven: React.FC<ChartElevenProps> = ({
     },
   };
 
-  return (
-    <div className="relative h-7.5 w-full max-w-25">
-      <div className="chartEleven chartEleven-01 absolute right-0 top-1/2 -ml-5 -translate-y-1/2">
-        <ReactApexChart
-          options={options}
-          series={state.series}
-          type="area"
-          height={70}
-        />
-      </div>
-    </div>
-  );
+  return (<div classname="relative h-7.5 w-full max-w-25"><div classname="chartEleven chartEleven-01 absolute right-0 top-1/2 -ml-5 -translate-y-1/2"><reactapexchart options="{options}" series="{state.series}" type="area" height="{70}"></reactapexchart></div></div>);
 };
 
-export default ChartEleven;
+export default ChartEleven;</chartelevenstate></chartelevenprops></body></html>

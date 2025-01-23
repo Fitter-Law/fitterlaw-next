@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+<html><head></head><body>import React, { useState } from "react";
 import AccordionItemOne from "./AccordionItemOne";
 import { FAQ } from "@/types/faq";
 
 const header = `How long we deliver your first blog post?`;
-const text = `It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available .`;
+const text = `It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research &amp; creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available .`;
 
 const faqs: FAQ[] = [
   {
@@ -33,10 +33,10 @@ const faqs: FAQ[] = [
   },
 ];
 
-const AccordionOne: React.FC = () => {
-  const [active, setActive] = useState<number | null>(null);
+const AccordionOne: React.FC = () =&gt; {
+  const [active, setActive] = useState<number |="" null="">(null);
 
-  const handleToggle = (index: number) => {
+  const handleToggle = (index: number) =&gt; {
     if (active === index) {
       setActive(null);
     } else {
@@ -44,51 +44,17 @@ const AccordionOne: React.FC = () => {
     }
   };
 
-  return (
-    <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
-      <div className="border-b border-stroke px-4 py-4 dark:border-strokedark sm:px-6 xl:px-7.5">
-        <h3 className="font-medium text-black dark:text-white">
-          Accordions Style 1
-        </h3>
-      </div>
-
-      <div className="p-4 sm:p-6 xl:p-12.5">
-        <div className="grid grid-cols-1 gap-x-4 gap-y-6 md:gap-x-6 xl:grid-cols-2 xl:gap-x-7.5">
-          <div className="flex flex-col gap-6">
-            {faqs.map((faq) => {
+  return (<div classname="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark"><div classname="border-b border-stroke px-4 py-4 dark:border-strokedark sm:px-6 xl:px-7.5"><h3 classname="font-medium text-black dark:text-white">Accordions Style 1</h3></div><div classname="p-4 sm:p-6 xl:p-12.5"><div classname="grid grid-cols-1 gap-x-4 gap-y-6 md:gap-x-6 xl:grid-cols-2 xl:gap-x-7.5"><div classname="flex flex-col gap-6">{faqs.map((faq) =&gt; {
               if (faq.id % 2 !== 0) {
-                return (
-                  <AccordionItemOne
-                    key={faq.id}
-                    active={active}
-                    handleToggle={handleToggle}
-                    faq={faq}
-                  />
-                );
+                return (<accordionitemone key="{faq.id}" active="{active}" handletoggle="{handleToggle}" faq="{faq}">);
               }
               return null;
-            })}
-          </div>
-
-          <div className="flex flex-col gap-6">
-            {faqs.map((faq) => {
+            })}</accordionitemone></div><div classname="flex flex-col gap-6">{faqs.map((faq) =&gt; {
               if (faq.id % 2 === 0) {
-                return (
-                  <AccordionItemOne
-                    key={faq.id}
-                    active={active}
-                    handleToggle={handleToggle}
-                    faq={faq}
-                  />
-                );
+                return (<accordionitemone key="{faq.id}" active="{active}" handletoggle="{handleToggle}" faq="{faq}">);
               }
               return null;
-            })}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+            })}</accordionitemone></div></div></div></div>);
 };
 
-export default AccordionOne;
+export default AccordionOne;</number></body></html>

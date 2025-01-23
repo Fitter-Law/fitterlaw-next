@@ -1,4 +1,4 @@
-"use client";
+<html><head></head><body>"use client";
 import React from "react";
 import ChartTwelve from "@/components/Charts/ChartTwelve";
 import DataStatsFour from "@/components/DataStats/DataStatsFour";
@@ -6,32 +6,17 @@ import MyStocks from "@/components/Stocks/MyStocks";
 import TrendingStocks from "@/components/Stocks/TrendingStocks";
 import LatestTransaction from "@/components/Stocks/LatestTransaction";
 
-const Stocks: React.FC = () => {
+const Stocks: React.FC = () =&gt; {
   return (
-    <>
-      <div className="grid grid-cols-12 gap-4 md:gap-6 2xl:gap-9">
-        {/* <!-- ====== Data Stats Start --> */}
-        <DataStatsFour />
-        {/* <!-- ====== Data Stats End --> */}
+    &lt;&gt;<div classname="grid grid-cols-12 gap-4 md:gap-6 2xl:gap-9">{/**/}<datastatsfour>{/**/}
 
-        {/* <!-- ====== Chart Twelve Start --> */}
-        <ChartTwelve />
-        {/* <!-- ====== Chart Twelve End --> */}
+        {/**/}<charttwelve>{/**/}
 
-        {/* <!-- ====== My Stocks Start --> */}
-        <MyStocks />
-        {/* <!-- ====== My Stocks End --> */}
+        {/**/}<mystocks>{/**/}
 
-        {/* <!-- ====== Trending Stocks Start --> */}
-        <TrendingStocks />
-        {/* <!-- ====== Trending Stocks End --> */}
+        {/**/}<trendingstocks>{/**/}
 
-        {/* <!-- ====== Latest Transaction Start --> */}
-        <LatestTransaction />
-        {/* <!-- ====== Latest Transaction End --> */}
-      </div>
-    </>
-  );
+        {/**/}<latesttransaction>{/**/}</latesttransaction></trendingstocks></mystocks></charttwelve></datastatsfour></div>);
 };
 
-export default Stocks;
+export default Stocks;</body></html>

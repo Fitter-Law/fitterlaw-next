@@ -1,4 +1,4 @@
-import Analytics from "@/components/Dashboard/Analytics";
+<html><head></head><body>import Analytics from "@/components/Dashboard/Analytics";
 
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -9,12 +9,8 @@ export const metadata: Metadata = {
     "This is Next.js Analytics Dashboard page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
-const AnalyticsPage = () => {
-  return (
-    <DefaultLayout>
-      <Analytics />
-    </DefaultLayout>
-  );
+const AnalyticsPage = () =&gt; {
+  return (<defaultlayout><analytics></analytics></defaultlayout>);
 };
 
-export default AnalyticsPage;
+export default AnalyticsPage;</body></html>

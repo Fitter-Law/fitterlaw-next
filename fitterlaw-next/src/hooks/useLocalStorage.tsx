@@ -1,15 +1,15 @@
-"use client";
+<html><head></head><body>"use client";
 import { useEffect, useState } from "react";
 
-type SetValue<T> = T | ((val: T) => T);
+type SetValue<t>= T | ((val: T) =&gt; T);
 
-function useLocalStorage<T>(
+function useLocalStorage<t>(
   key: string,
   initialValue: T,
-): [T, (value: SetValue<T>) => void] {
+): [T, (value: SetValue<t>) =&gt; void] {
   // State to store our value
   // Pass  initial state function to useState so logic is only executed once
-  const [storedValue, setStoredValue] = useState(() => {
+  const [storedValue, setStoredValue] = useState(() =&gt; {
     try {
       // Get from local storage by key
       if (typeof window !== "undefined") {
@@ -26,7 +26,7 @@ function useLocalStorage<T>(
   });
 
   // useEffect to update local storage when the state changes
-  useEffect(() => {
+  useEffect(() =&gt; {
     try {
       // Allow value to be a function so we have same API as useState
       const valueToStore =
@@ -47,4 +47,4 @@ function useLocalStorage<T>(
   return [storedValue, setStoredValue];
 }
 
-export default useLocalStorage;
+export default useLocalStorage;</t></t></t></body></html>

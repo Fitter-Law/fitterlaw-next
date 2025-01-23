@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import PaginationOne from "@/components/Paginations/PaginationOne";
 import PaginationTwo from "@/components/Paginations/PaginationTwo";
@@ -12,18 +12,8 @@ export const metadata: Metadata = {
     "This is Next.js Pagination page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
-const Pagination: React.FC = () => {
-  return (
-    <DefaultLayout>
-      <Breadcrumb pageName="Pagination" />
-
-      <div className="flex flex-col gap-7.5">
-        <PaginationOne />
-        <PaginationTwo />
-        <PaginationThree />
-      </div>
-    </DefaultLayout>
-  );
+const Pagination: React.FC = () =&gt; {
+  return (<defaultlayout><breadcrumb pagename="Pagination"><div classname="flex flex-col gap-7.5"><paginationone><paginationtwo><paginationthree></paginationthree></paginationtwo></paginationone></div></breadcrumb></defaultlayout>);
 };
 
-export default Pagination;
+export default Pagination;</body></html>

@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import Messages from "@/components/Messages";
 
 import { Metadata } from "next";
@@ -11,12 +11,8 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const MessagesPage = () => {
-  return (
-    <DefaultLayout>
-      <Messages />
-    </DefaultLayout>
-  );
+const MessagesPage = () =&gt; {
+  return (<defaultlayout><messages></messages></defaultlayout>);
 };
 
-export default MessagesPage;
+export default MessagesPage;</body></html>

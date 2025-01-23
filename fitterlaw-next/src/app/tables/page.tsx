@@ -1,4 +1,4 @@
-import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
+<html><head></head><body>import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import TableOne from "@/components/Tables/TableOne";
 import TableThree from "@/components/Tables/TableThree";
 import TableTwo from "@/components/Tables/TableTwo";
@@ -12,18 +12,8 @@ export const metadata: Metadata = {
     "This is Next.js Tables page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
-const TablesPage = () => {
-  return (
-    <DefaultLayout>
-      <Breadcrumb pageName="Tables" />
-
-      <div className="flex flex-col gap-10">
-        <TableOne />
-        <TableTwo />
-        <TableThree />
-      </div>
-    </DefaultLayout>
-  );
+const TablesPage = () =&gt; {
+  return (<defaultlayout><breadcrumb pagename="Tables"><div classname="flex flex-col gap-10"><tableone><tabletwo><tablethree></tablethree></tabletwo></tableone></div></breadcrumb></defaultlayout>);
 };
 
-export default TablesPage;
+export default TablesPage;</body></html>

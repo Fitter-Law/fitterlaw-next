@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import Popovers from "@/components/Popovers";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -9,12 +9,8 @@ export const metadata: Metadata = {
     "This is Next.js Popovers page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
-const PopOversPage = () => {
-  return (
-    <DefaultLayout>
-      <Popovers />
-    </DefaultLayout>
-  );
+const PopOversPage = () =&gt; {
+  return (<defaultlayout><popovers></popovers></defaultlayout>);
 };
 
-export default PopOversPage;
+export default PopOversPage;</body></html>

@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import PricingTableOne from "@/components/PricingTables/PricingTableOne";
 import PricingTableTwo from "@/components/PricingTables/PricingTableTwo";
@@ -11,17 +11,8 @@ export const metadata: Metadata = {
     "This is Next.js Pricing Table page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
-const PricingTables: React.FC = () => {
-  return (
-    <DefaultLayout>
-      <Breadcrumb pageName="Pricing Table" />
-
-      <div className="flex flex-col gap-5 md:gap-7 2xl:gap-10">
-        <PricingTableOne />
-        <PricingTableTwo />
-      </div>
-    </DefaultLayout>
-  );
+const PricingTables: React.FC = () =&gt; {
+  return (<defaultlayout><breadcrumb pagename="Pricing Table"><div classname="flex flex-col gap-5 md:gap-7 2xl:gap-10"><pricingtableone><pricingtabletwo></pricingtabletwo></pricingtableone></div></breadcrumb></defaultlayout>);
 };
 
-export default PricingTables;
+export default PricingTables;</body></html>

@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import Progress from "@/components/Progress";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -10,12 +10,8 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const ProgressPage: React.FC = () => {
-  return (
-    <DefaultLayout>
-      <Progress />
-    </DefaultLayout>
-  );
+const ProgressPage: React.FC = () =&gt; {
+  return (<defaultlayout><progress></progress></defaultlayout>);
 };
 
-export default ProgressPage;
+export default ProgressPage;</body></html>

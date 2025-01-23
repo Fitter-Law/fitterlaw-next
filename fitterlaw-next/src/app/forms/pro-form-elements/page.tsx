@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import ProFormElements from "@/components/ProFormElements";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -9,12 +9,8 @@ export const metadata: Metadata = {
     "This is Next.js Pro Form Elements page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
-const ProFormElementsPage = () => {
-  return (
-    <DefaultLayout>
-      <ProFormElements />
-    </DefaultLayout>
-  );
+const ProFormElementsPage = () =&gt; {
+  return (<defaultlayout><proformelements></proformelements></defaultlayout>);
 };
 
-export default ProFormElementsPage;
+export default ProFormElementsPage;</body></html>

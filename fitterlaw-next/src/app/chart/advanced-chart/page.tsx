@@ -1,4 +1,4 @@
-import AdvancedChart from "@/components/Charts/AdvancedChart";
+<html><head></head><body>import AdvancedChart from "@/components/Charts/AdvancedChart";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
@@ -9,12 +9,8 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const AdvancedChartPage: React.FC = () => {
-  return (
-    <DefaultLayout>
-      <AdvancedChart />
-    </DefaultLayout>
-  );
+const AdvancedChartPage: React.FC = () =&gt; {
+  return (<defaultlayout><advancedchart></advancedchart></defaultlayout>);
 };
 
-export default AdvancedChartPage;
+export default AdvancedChartPage;</body></html>

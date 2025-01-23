@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import Images from "@/components/Images";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -10,12 +10,8 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const ImagesPage = () => {
-  return (
-    <DefaultLayout>
-      <Images />
-    </DefaultLayout>
-  );
+const ImagesPage = () =&gt; {
+  return (<defaultlayout><images></images></defaultlayout>);
 };
 
-export default ImagesPage;
+export default ImagesPage;</body></html>

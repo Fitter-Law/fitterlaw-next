@@ -1,19 +1,11 @@
-"use client";
+<html><head></head><body>"use client";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import AccordionOne from "@/components/Accordions/AccordionOne";
 import AccordionTwo from "@/components/Accordions/AccordionTwo";
 
-const Accordion: React.FC = () => {
+const Accordion: React.FC = () =&gt; {
   return (
-    <>
-      <Breadcrumb pageName="Accordion" />
-
-      <div className="flex flex-col gap-7.5">
-        <AccordionOne />
-        <AccordionTwo />
-      </div>
-    </>
-  );
+    &lt;&gt;<breadcrumb pagename="Accordion"><div classname="flex flex-col gap-7.5"><accordionone><accordiontwo></accordiontwo></accordionone></div>);
 };
 
-export default Accordion;
+export default Accordion;</breadcrumb></body></html>

@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import NotificationsOne from "@/components/Notifications/NotificationsOne";
 import NotificationsTwo from "@/components/Notifications/NotificationsTwo";
@@ -13,19 +13,8 @@ export const metadata: Metadata = {
     "This is Next.js Notifications page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
-const Notifications: React.FC = () => {
-  return (
-    <DefaultLayout>
-      <Breadcrumb pageName="Notifications" />
-
-      <div className="flex flex-col gap-7.5">
-        <NotificationsOne />
-        <NotificationsTwo />
-        <NotificationsThree />
-        <NotificationsFour />
-      </div>
-    </DefaultLayout>
-  );
+const Notifications: React.FC = () =&gt; {
+  return (<defaultlayout><breadcrumb pagename="Notifications"><div classname="flex flex-col gap-7.5"><notificationsone><notificationstwo><notificationsthree><notificationsfour></notificationsfour></notificationsthree></notificationstwo></notificationsone></div></breadcrumb></defaultlayout>);
 };
 
-export default Notifications;
+export default Notifications;</body></html>

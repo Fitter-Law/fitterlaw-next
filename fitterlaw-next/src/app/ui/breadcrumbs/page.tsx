@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 import { Metadata } from "next";
@@ -11,12 +11,8 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const BreadcrumbsPage = () => {
-  return (
-    <DefaultLayout>
-      <Breadcrumbs />
-    </DefaultLayout>
-  );
+const BreadcrumbsPage = () =&gt; {
+  return (<defaultlayout><breadcrumbs></breadcrumbs></defaultlayout>);
 };
 
-export default BreadcrumbsPage;
+export default BreadcrumbsPage;</body></html>

@@ -1,4 +1,4 @@
-import Stocks from "@/components/Dashboard/Stocks";
+<html><head></head><body>import Stocks from "@/components/Dashboard/Stocks";
 
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -9,12 +9,8 @@ export const metadata: Metadata = {
     "This is Next.js Stocks Dashboard page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
-const StocksPage = () => {
-  return (
-    <DefaultLayout>
-      <Stocks />
-    </DefaultLayout>
-  );
+const StocksPage = () =&gt; {
+  return (<defaultlayout><stocks></stocks></defaultlayout>);
 };
 
-export default StocksPage;
+export default StocksPage;</body></html>

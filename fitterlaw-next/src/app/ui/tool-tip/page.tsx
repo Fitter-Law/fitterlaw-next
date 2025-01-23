@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import TooltipsOne from "@/components/ToolTips/TooltipsOne";
 import TooltipsTwo from "@/components/ToolTips/TooltipsTwo";
@@ -11,17 +11,8 @@ export const metadata: Metadata = {
     "This is Next.js Tooltips page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
 
-const Tooltips: React.FC = () => {
-  return (
-    <DefaultLayout>
-      <Breadcrumb pageName="Tooltips" />
-
-      <div className="flex flex-col gap-7.5">
-        <TooltipsOne />
-        <TooltipsTwo />
-      </div>
-    </DefaultLayout>
-  );
+const Tooltips: React.FC = () =&gt; {
+  return (<defaultlayout><breadcrumb pagename="Tooltips"><div classname="flex flex-col gap-7.5"><tooltipsone><tooltipstwo></tooltipstwo></tooltipsone></div></breadcrumb></defaultlayout>);
 };
 
-export default Tooltips;
+export default Tooltips;</body></html>

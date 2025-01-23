@@ -1,4 +1,4 @@
-import React from "react";
+<html><head></head><body>import React from "react";
 import DataTables from "@/components/DataTables";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
@@ -10,12 +10,8 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const DataTablesPage = () => {
-  return (
-    <DefaultLayout>
-      <DataTables />
-    </DefaultLayout>
-  );
+const DataTablesPage = () =&gt; {
+  return (<defaultlayout><datatables></datatables></defaultlayout>);
 };
 
-export default DataTablesPage;
+export default DataTablesPage;</body></html>
