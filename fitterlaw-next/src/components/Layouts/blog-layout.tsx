@@ -1,6 +1,13 @@
 import React from 'react';
 
-const BlogLayout = ({ children, title, date, author }) => {
+interface BlogLayoutProps {
+  children: React.ReactNode;
+  title: string;
+  date: string;
+  author: string;
+ }
+ 
+ const BlogLayout = ({ children, title, date, author }: BlogLayoutProps) => {
   return (
     <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
       <div className="px-4 py-6 md:px-6 xl:px-7.5">
