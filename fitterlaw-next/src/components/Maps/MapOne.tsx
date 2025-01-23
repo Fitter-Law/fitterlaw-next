@@ -40,7 +40,7 @@ const MapOne: React.FC = () =&gt; {
       },
     });
 
-    return () =&gt; { const map = document.getElementById("mapOne"); console.log(map) if (map) { map.innerHTML = ""; } }; }, []); return (<div classname="col-span-12 rounded-sm border border-stroke bg-white px-7.5 py-6 shadow-default dark:border-strokedark dark:bg-boxdark xl:col-span-7"><h4 classname="mb-2 text-xl font-semibold text-black dark:text-white">Region labels</h4><div classname="h-90"><div id="mapOne" classname="mapOne map-btn"></div></div></div>);
+    return () =&gt; { const map = document.getElementById("mapOne"); console.log(map) if (map) { map.innerHTML = ""; } }; }, []); return (<div className="col-span-12 rounded-sm border border-stroke bg-white px-7.5 py-6 shadow-default dark:border-strokedark dark:bg-boxdark xl:col-span-7"><h4 className="mb-2 text-xl font-semibold text-black dark:text-white">Region labels</h4><div className="h-90"><div id="mapOne" className="mapOne map-btn"></div></div></div>);
 };
 
 export default MapOne;

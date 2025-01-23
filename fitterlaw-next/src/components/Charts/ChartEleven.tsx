@@ -107,7 +107,7 @@ const ChartEleven: React.FC<chartelevenprops>= ({
     },
   };
 
-  return (<div classname="relative h-7.5 w-full max-w-25"><div classname="chartEleven chartEleven-01 absolute right-0 top-1/2 -ml-5 -translate-y-1/2"><reactapexchart options="{options}" series="{state.series}" type="area" height="{70}"></reactapexchart></div></div>);
+  return (<div className="relative h-7.5 w-full max-w-25"><div className="chartEleven chartEleven-01 absolute right-0 top-1/2 -ml-5 -translate-y-1/2"><reactapexchart options="{options}" series="{state.series}" type="area" height="{70}"></reactapexchart></div></div>);
 };
 
 export default ChartEleven;</chartelevenstate></chartelevenprops>

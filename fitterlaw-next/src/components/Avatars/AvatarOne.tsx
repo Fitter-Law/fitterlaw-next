@@ -31,7 +31,7 @@ const avatarItems: Avatar[] = [
 ];
 
 const AvatarOne: React.FC = () =&gt; {
-  return (<div classname="flex items-center gap-6">{avatarItems.map((item, index) =&gt; (<div key="{index}" classname="{`w-full" rounded-full="" ${item.classes}`}=""><img width="{item.size}" height="{item.size}" style="{{" width:="" "100%",="" height:="" "auto",="" }}="" src="{item.image}" alt="User" priority=""></div>))}</div>);
+  return (<div className="flex items-center gap-6">{avatarItems.map((item, index) =&gt; (<div key="{index}" className="{`w-full" rounded-full="" ${item.classes}`}=""><img width="{item.size}" height="{item.size}" style="{{" width:="" "100%",="" height:="" "auto",="" }}="" src="{item.image}" alt="User" priority=""></div>))}</div>);
 };
 
 export default AvatarOne;

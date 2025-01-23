@@ -12,7 +12,7 @@ const ContentProcessor = ({ content }: ContentProcessorProps) =&gt; {
     ADD_ATTR: ['allowfullscreen', 'frameborder', 'target']
   });
 
-  return (<div classname="wp-content" dangerouslysetinnerhtml="{{" __html:="" cleancontent="" }}="">);
+  return (<div className="wp-content" dangerouslysetinnerhtml="{{" __html:="" cleancontent="" }}="">);
 };
 
 export default ContentProcessor;</div>

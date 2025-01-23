@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const Badge: React.FC = () =&gt; {
-  return (<DefaultLayout><breadcrumb pagename="Badge"><div classname="flex flex-col gap-7.5"><badgeone><badgetwo><badgethree><badgefour></badgefour></badgethree></badgetwo></badgeone></div></breadcrumb></DefaultLayout>);
+  return (<DefaultLayout><breadcrumb pagename="Badge"><div className="flex flex-col gap-7.5"><badgeone><badgetwo><badgethree><badgefour></badgefour></badgethree></badgetwo></badgeone></div></breadcrumb></DefaultLayout>);
 };
 
 export default Badge;

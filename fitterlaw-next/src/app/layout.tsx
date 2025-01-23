@@ -23,5 +23,5 @@ export default function RootLayout({
     setTimeout(() =&gt; setLoading(false), 1000);
   }, []);
 
-  return (<div classname="dark:bg-boxdark-2 dark:text-bodydark">{loading ?<loader>: children}</loader></div>);
+  return (<div className="dark:bg-boxdark-2 dark:text-bodydark">{loading ?<loader>: children}</loader></div>);
 }</boolean>

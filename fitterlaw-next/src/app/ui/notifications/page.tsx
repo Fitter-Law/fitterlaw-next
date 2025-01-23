@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 const Notifications: React.FC = () =&gt; {
-  return (<DefaultLayout><breadcrumb pagename="Notifications"><div classname="flex flex-col gap-7.5"><notificationsone><notificationstwo><notificationsthree><notificationsfour></notificationsfour></notificationsthree></notificationstwo></notificationsone></div></breadcrumb></DefaultLayout>);
+  return (<DefaultLayout><breadcrumb pagename="Notifications"><div className="flex flex-col gap-7.5"><notificationsone><notificationstwo><notificationsthree><notificationsfour></notificationsfour></notificationsthree></notificationstwo></notificationsone></div></breadcrumb></DefaultLayout>);
 };
 
 export default Notifications;

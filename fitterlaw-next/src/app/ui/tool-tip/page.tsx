@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const Tooltips: React.FC = () =&gt; {
-  return (<DefaultLayout><breadcrumb pagename="Tooltips"><div classname="flex flex-col gap-7.5"><tooltipsone><tooltipstwo></tooltipstwo></tooltipsone></div></breadcrumb></DefaultLayout>);
+  return (<DefaultLayout><breadcrumb pagename="Tooltips"><div className="flex flex-col gap-7.5"><tooltipsone><tooltipstwo></tooltipstwo></tooltipsone></div></breadcrumb></DefaultLayout>);
 };
 
 export default Tooltips;

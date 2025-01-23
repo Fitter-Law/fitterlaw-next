@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const ProTablesPage = () =&gt; {
-  return (<DefaultLayout><breadcrumb pagename="Pro Tables"><div classname="flex flex-col gap-10"><tablefive><tablesix></tablesix></tablefive></div></breadcrumb></DefaultLayout>);
+  return (<DefaultLayout><breadcrumb pagename="Pro Tables"><div className="flex flex-col gap-10"><tablefive><tablesix></tablesix></tablefive></div></breadcrumb></DefaultLayout>);
 };
 
 export default ProTablesPage;

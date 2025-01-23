@@ -13,7 +13,7 @@ const RangeSliderTwo = () =&gt; {
         max: 100,
       },
     });
-    return () =&gt; { (sliderTwo.noUiSlider as any).destroy(); }; }, []); return (<div classname="rangeSliderCommon rangeSliderTwo"><div id="rangeSliderTwo"></div></div>);
+    return () =&gt; { (sliderTwo.noUiSlider as any).destroy(); }; }, []); return (<div className="rangeSliderCommon rangeSliderTwo"><div id="rangeSliderTwo"></div></div>);
 };
 
 export default RangeSliderTwo;

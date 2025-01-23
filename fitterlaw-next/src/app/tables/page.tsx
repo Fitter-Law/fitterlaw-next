@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 const TablesPage = () =&gt; {
-  return (<DefaultLayout><breadcrumb pagename="Tables"><div classname="flex flex-col gap-10"><tableone><tabletwo><tablethree></tablethree></tabletwo></tableone></div></breadcrumb></DefaultLayout>);
+  return (<DefaultLayout><breadcrumb pagename="Tables"><div className="flex flex-col gap-10"><tableone><tabletwo><tablethree></tablethree></tabletwo></tableone></div></breadcrumb></DefaultLayout>);
 };
 
 export default TablesPage;

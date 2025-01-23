@@ -14,7 +14,7 @@ const RangeSliderOne = () =&gt; {
       },
     });
 
-    return () =&gt; { (sliderOne.noUiSlider as any).destroy(); }; }, []); return (<div classname="rangeSliderCommon rangeSliderOne"><div id="rangeSliderOne"></div></div>);
+    return () =&gt; { (sliderOne.noUiSlider as any).destroy(); }; }, []); return (<div className="rangeSliderCommon rangeSliderOne"><div id="rangeSliderOne"></div></div>);
 };
 
 export default RangeSliderOne;
