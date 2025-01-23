@@ -1,7 +1,15 @@
-﻿import DefaultLayout from '@/components/Layouts/DefaultLayout';
+﻿import React from 'react';
+import DefaultLayout from '@/components/Layouts/DefaultLayout';
 
-export default function BlogIndex() {
-  const posts = [
+interface Post {
+ title: string;
+ slug: string;
+ date: string;
+ excerpt?: string;
+}
+
+export default function BlogPage() {
+ const posts: Post[] = [
     {
       title: "Who is the best lawyer for my type of business?",
       slug: "who-is-the-best-attorney-for-my-type-of-business",
@@ -5852,23 +5860,31 @@ This title is designed to attract clicks and high ranking from Google by incorpo
   ];
 
   return (
-    <DefaultLayout>
-      <div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
-        <h1 className="mb-4 text-title-md2 font-bold text-black dark:text-white">Blog</h1>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {posts.map((post) => (
-            <a key={post.slug} href={/blog/} className="block">
-              <div className="rounded-sm border border-stroke bg-white p-4 shadow-default dark:border-strokedark dark:bg-boxdark">
-                <h2 className="mb-2 text-lg font-semibold text-black dark:text-white">{post.title}</h2>
-                <p className="mb-4 text-sm text-body dark:text-bodydark">
-                  {new Date(post.date).toLocaleDateString()}
-                </p>
-                {post.excerpt && <p className="text-sm">{post.excerpt}</p>}
-              </div>
-            </a>
-          ))}
-        </div>
-      </div>
-    </DefaultLayout>
-  );
+   <DefaultLayout>
+     <div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
+       <h1 className="mb-4 text-title-md2 font-bold text-black dark:text-white">Blog</h1>
+       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+         {posts.map((post) => (
+           <a 
+             key={post.slug} 
+             href={`/blog/${post.slug}`} 
+             className="block"
+           >
+             <div className="rounded-sm border border-stroke bg-white p-4 shadow-default dark:border-strokedark dark:bg-boxdark">
+               <h2 className="mb-2 text-lg font-semibold text-black dark:text-white">
+                 {post.title}
+               </h2>
+               <p className="mb-4 text-sm text-body dark:text-bodydark">
+                 {new Date(post.date).toLocaleDateString()}
+               </p>
+               {post.excerpt && (
+                 <p className="text-sm">{post.excerpt}</p>
+               )}
+             </div>
+           </a>
+         ))}
+       </div>
+     </div>
+   </DefaultLayout>
+ );
 }
